@@ -33,8 +33,8 @@ def takeoff ():
     global dron, takeOffBtn
     global alt_entry
     try:
-        # altura de despeque prefijada
-        alt = 8
+        # tomamos la altura del cuadro de texto
+        alt = float(alt_entry.get())
         # llamo en modo no bloqueante y le indico qué función debe activar al acabar la operación, y qué parámetro debe usar
         dron.takeOff (alt, blocking=False,  callback=informar, params='VOLANDO')
         # mientras despego pongo el boton en amarillo
@@ -81,9 +81,34 @@ def informar (mensaje):
         RTLBtn['fg'] = 'black'
         RTLBtn['text'] = 'RTL'
 
+    if mensaje == "EN TIERRA":
+        # pongo el boton Aterrizar en verde
+        landBtn['bg'] = 'green'
+        landBtn['fg'] = 'white'
+        landBtn['text'] = 'En tierra'
+        # me desconecto del dron (eso tardará 5 segundos)
+        dron.disconnect()
+        # devuelvo los botones a la situación inicial
+
+
+        connectBtn['bg'] = 'dark orange'
+        connectBtn['fg'] = 'black'
+        connectBtn['text'] = 'Conectar'
+
+        armBtn['bg'] = 'dark orange'
+        armBtn['fg'] = 'black'
+        armBtn['text'] = 'Armar'
+
+        takeOffBtn['bg'] = 'dark orange'
+        takeOffBtn['fg'] = 'black'
+        takeOffBtn['text'] = 'Despegar'
+
+        landBtn['bg'] = 'dark orange'
+        landBtn['fg'] = 'black'
+        landBtn['text'] = 'Aterrizar'
+
 def RTL():
     global dron, RTLBtn
-    # si esta navegando detengo el modo de navegación
     if dron.going:
         dron.stopGo()
     # llamo en modo no bloqueante y le indico qué función debe activar al acabar la operación, y qué parámetro debe usar
@@ -93,6 +118,15 @@ def RTL():
     RTLBtn['text'] = 'Retornando....'
 
 
+def aterrizar():
+    global dron, landBtn
+    if dron.going:
+        dron.stopGo()
+    # llamo en modo no bloqueante y le indico qué función debe activar al acabar la operación, y qué parámetro debe usar
+    dron.Land(blocking = False, callback = informar, params= 'EN TIERRA')
+    # mientras retorno pongo el boton en amarillo
+    landBtn['bg'] = 'yellow'
+    landBtn['text'] = 'Aterrizando....'
 
 # ====== NAVIGATION FUNCTIONS ======
 # Esta función se activa cada vez que cambiamos la velocidad de navegación con el slider
@@ -112,7 +146,7 @@ def go(direction):
 def crear_ventana():
     global dron
     global  altShowLbl, headingShowLbl,  speedSldr, gradesSldr, speedShowLbl
-    global takeOffBtn, connectBtn, armBtn, takeOffBtn, RTLBtn
+    global takeOffBtn, connectBtn, armBtn, takeOffBtn, RTLBtn, landBtn
     global alt_entry
 
     dron = Dron()
@@ -148,8 +182,17 @@ def crear_ventana():
                        command=lambda: arm(armBtn))
     armBtn.grid(row=1, column=0, padx=5, pady=5, sticky=tk.N + tk.S + tk.E + tk.W)
 
-    takeOffBtn = tk.Button(controlFrame, text="Despegar", bg="dark orange", command=takeoff)
-    takeOffBtn.grid(row=2, column=0,  padx=5, pady=5, sticky=tk.N + tk.S + tk.E + tk.W)
+    takeOffFrame = tk.Frame (controlFrame)
+    takeOffFrame.grid(row=2, column=0, padx=5, pady=5, sticky=tk.N + tk.S + tk.E + tk.W)
+    takeOffFrame.rowconfigure(0, weight=1)
+    takeOffFrame.columnconfigure(0, weight=1)
+    takeOffFrame.columnconfigure(1, weight=1)
+
+    alt_entry = tk.Entry(takeOffFrame)
+    alt_entry.grid(row=0, column=0, columnspan=2, padx=5, pady=5, sticky=tk.N + tk.S + tk.E + tk.W)
+
+    takeOffBtn = tk.Button(takeOffFrame, text="Despegar", bg="dark orange", command=takeoff)
+    takeOffBtn.grid(row=0, column=1,  padx=5, pady=5, sticky=tk.N + tk.S + tk.E + tk.W)
 
     RTLBtn = tk.Button(controlFrame, text="RTL", bg="dark orange", command=RTL)
     RTLBtn.grid(row=3, column=0, padx=5, pady=5, sticky=tk.N + tk.S + tk.E + tk.W)
@@ -237,8 +280,8 @@ def crear_ventana():
     userFrame.columnconfigure(3, weight=1)
 
     # Estos botones se pueden configurar como se prefiera y añadir cualquier funcionalidad deseada
-    newButton1 = tk.Button(userFrame, text="Button 2", bg="light grey")
-    newButton1.grid(row=0, column=0, columnspan=4, padx=5, pady=5, sticky=tk.N + tk.E + tk.W)
+    landBtn = tk.Button(userFrame, text="Aterrizar", bg="dark orange", command = aterrizar)
+    landBtn.grid(row=0, column=0, columnspan=4, padx=5, pady=5, sticky=tk.N + tk.E + tk.W)
 
     newButton2 = tk.Button(userFrame, text="Button 2", bg="light grey")
     newButton2.grid(row=2, column=0, columnspan=4, padx=5, pady=5, sticky=tk.N + tk.E + tk.W)
