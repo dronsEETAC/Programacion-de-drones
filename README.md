@@ -321,6 +321,8 @@ típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velo
 La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
 en todas las funcione callback. 
 </td>
+
+         
 </tr>
 <tr>
 <td>
@@ -335,6 +337,8 @@ def disconnect (self)
 <td>  <b>Desconecta el dron</b>. Además, detiene el envío de datos de telemetría y espera 5 segundos antes
 de retornar. 
 </td>
+
+         
 </tr>
 </table>
 
