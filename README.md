@@ -109,7 +109,7 @@ Una vez hayas instalado Git en tu ordenador, ya puedes clonar el repositorio, qu
 organizado tal y como muestra en la figura:
 
 
-<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/b0cd63c6-6d10-44c2-8e68-70c6462b2edc" width="300" height="200">
+<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/b0cd63c6-6d10-44c2-8e68-70c6462b2edc" width="400" height="200">
 
 
 En el repositorio puedes acceder al código de las 4 etapas, puesto que las diferentes versiones
@@ -120,7 +120,6 @@ tienes el código después de haber resuelto los dos retos** que se te plantear�
 la misma manera, encontrarás en la etiqueta **V2.A.1 el código base de la etapa 2.A** y en **V2.A.2
 el código resultante de resolver los retos propuestos**.
 
---- 
 
 ## 5.Git
 
@@ -135,9 +134,10 @@ En el vídeo siguiente puedes ver cómo **clonar el repositorio**, **moverte por
 versiones**, **crear las ramas** necesarias para tus propios desarrollos y **moverte por el repositorio
 de una rama a otra** o de una versión a otra.
 
-[VÍDEO 2]
+  <a href="https://www.youtube.com/watch?v=BST5Dj4PqZ4">
+    <img src="https://img.youtube.com/vi/v=BST5Dj4PqZ4/0.jpg" width="250" alt="">
+  </a>
 
----
 
 ## 6. Para empezar a programar
 
@@ -150,7 +150,6 @@ la librería _**DronLib**_, que está incluida en el repositorio de este taller.
 
 [VÍDEO 3]
 
----
 
 ## 7.La librería DronLib
 
