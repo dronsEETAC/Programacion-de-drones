@@ -4,6 +4,9 @@
 
 ## **1. Presentación**
 
+<code style="color : red">Pruieba</code>
+Prueba    
+
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
 un dron**. Aprenderás a crear un programa con una **interfaz gráfica** que use botones para
 ordenar al dron que despegue o vuele en una dirección determinada, que presentará al
