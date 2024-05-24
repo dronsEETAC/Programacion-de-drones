@@ -36,7 +36,7 @@ taller se realiza de forma presencial en las instalaciones **del campus del Baix
 UPC, en Castelldefels**.
 
 
-<img src="[https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c](https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075)" width="800" height="200">
+<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075" width="800" height="200">
 
 Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
 
