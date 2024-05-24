@@ -304,14 +304,12 @@ bloqueante (_blocking_, _callback_ y _params_).
 <table>
 <tr>
 <td>
-
 ```
 def connect(self,
   connection_string, baud,
   id=None,
   blocking=True, callback=None, params = None)
 ```
-
 </td>
 </tr>
 <tr>
@@ -321,7 +319,6 @@ típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velo
 La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
 en todas las funcione callback. 
 </td>
-
 </tr>
 <tr>
 <td>
@@ -343,46 +340,6 @@ de retornar.
 
 
 
-| Command |
-| --- | 
-| ```
-def connect(self,
-  connection_string, baud,
-  id=None,
-  blocking=True, callback=None, params = None)
-```| 
-| **Conecta con el dron**. Los parámetros _connection_string_ y _baud_ indican si hay que **conectar con
-el simulador o con el dron real**, y la **velocidad de comunicación**. Para conectar con el simulador
-típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velocidad es **115200**.
-La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
-en todas las funcione callback. | 
-| def disconnect (self) |
-| **Desconecta el dron**. Además, detiene el envío de datos de telemetría y espera 5 segundos antes
-de retornar.| 
-
-
-def connect(self,
-  connection_string, baud,
-  id=None,
-  blocking=True, callback=None, params = None)
-```
-
-**Conecta con el dron**. Los parámetros _connection_string_ y _baud_ indican si hay que **conectar con
-el simulador o con el dron real**, y la **velocidad de comunicación**. Para conectar con el simulador
-típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velocidad es **115200**.
-La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
-en todas las funcione callback.
-
----
-
-```bash
-def disconnect (self)
-```
-
-**Desconecta el dron**. Además, detiene el envío de datos de telemetría y espera 5 segundos antes
-de retornar.
-
----
 
 ```bash
 def arm(self, blocking=True, callback=None, params = None)
