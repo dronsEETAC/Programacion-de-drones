@@ -8,7 +8,7 @@ ordenar al dron que despegue o vuele en una dirección determinada, que presenta
 usuario un **mapa** en el que mostrará la posición del dron en todo momento y que permitirá
 **guiar el dron con las poses de tu cuerpo**, utilizando técnicas de reconocimiento de imagen.
     
-![presentacion](https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c)
+![presentacion](https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c width="100" height="100")
 
 En este repositorio encontrarás:
 1. Los **códigos** de referencia para la realización del taller.
