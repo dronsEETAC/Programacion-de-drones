@@ -121,7 +121,7 @@ la misma manera, encontrarás en la etiqueta **V2.A.1 el código base de la etap
 el código resultante de resolver los retos propuestos**.
 
 
-## 5.Git
+## 5. Git
 
 La herramienta **Git te permite crear ramas para tus propios desarrollos.** De hecho, la figura del apartado anterior
 muestra que el código tiene una rama principal **(main)** que se **divide en dos ramas (mapa y
@@ -159,7 +159,7 @@ Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador S
   </a>
 
 
-## 7.La librería DronLib
+## 7. La librería DronLib
 
 DronLib es la librería que vamos a usar para **darle ordenes al dron** (tanto al simulador SITL
 como al dron real). Es una **librería en desarrollo en la UPC** (y por tanto, no exenta de fallos) que
@@ -517,7 +517,7 @@ def goto(self,
 
 ---
 
-## Etapa 1: Interfaz con botones
+## 8. Etapa 1: Interfaz con botones
 
 ### Versión inicial
 
@@ -540,11 +540,11 @@ indica qué función hay que ejecutar cuando haya acabado la operación solicita
 
 Este vídeo contiene una **explicación del código de esta versión** y una **demostración de la
 aplicación en funcionamiento**. Fíjate que para ejecutar el código tendrás que instalar la librería
-**_pymavlink_** (recuerda que en la [sección _3. Herramientas_](#installs) se te da una explicación más detallada de la librería) .
+**_pymavlink_**.
 
-[VIDEO] (Demo de la etapa 1)
-
----
+  <a href="https://www.youtube.com/watch?v=Rza4vbXaFp0">
+    <img src="https://img.youtube.com/vi/Rza4vbXaFp0/0.jpg" width="150" alt="">
+  </a>
 
 ### Retos
 
@@ -552,8 +552,7 @@ Te proponemos dos retos sencillos, cuya solución encontrarás en el código eti
 “**v1.2**”.
 
 - **Reto 1**: Añade botón para hacer que el dron aterrice en el punto sobre el que se encuentra.
-Échale un vistazo a la librería de funciones de contro del dron. Seguro que encuentras allí la
-función que necesitas.
+Échale un vistazo a la librería **dronLib**. Seguro que encuentras allí la función que necesitas.
 
 - **Reto 2**: Añade algún elemento a la interfaz que te permita introducir la altura a la que quieres
 que despegue el dron (que en la versión inicial es una altura fija).
@@ -561,7 +560,7 @@ que despegue el dron (que en la versión inicial es una altura fija).
 ### Más retos
 
 Aquí tienes una lista con otros retos que podrías plantearte, si tienes ganas y tiempo.
-Naturalmente **tendrás que investigar un poco la librería de funciones** para ver qué cosas se
+Naturalmente **tendrás que investigar un poco las librerías dronLib y pymavlink** para ver qué cosas se
 pueden hacer con el dron:
 
 1. Introduce un elemento de tipo _Scale_ (como el que se usa para especificar la velocidad
@@ -573,27 +572,26 @@ cuando está en el aire (cambio de heading).
 5. Introduce algún elemento para que se muestre en todo momento **la altura** que tiene el
 dron.
 
----
 
-## Etapa 2.A: Interfaz con mapa
+## 9. Etapa 2.A: Interfaz con mapa
 
 ### Versión inicial
 
 Puede encontrarse en el tag “**v2.A.1**”. La novedad más importante es la aparición de un **botón
 que abre una ventana nueva**, cuyo código está en el fichero _MapFrame.py_, en el que se
 muestra un **mapa navegable**, igual que los que nos muestra Google Maps o el propio Mission
-Planner. En ese mapa podemos hacer que **se muestre el dron** y **seguir sus movimientos según
+Planner. En ese mapa podemos hacer que **se muestre el dron en el mapa** y **seguir sus movimientos según
 le indiquemos con los botones de navegación**, exactamente igual que los podemos seguir en el
 mapa de Mission Planner. Analizando el código de esta versión aprenderás a **mostrar un mapa
 de la zona que quieras** (indicando las coordenadas geográficas, a colocar una imagen en el 
 mapa (por ejemplo, el icono del dron), a **capturar los eventos de ratón sobre el mapa** y **fijar
-marcas o dibujar líneas**.
+marcas o dibujar líneas en el mapa**.
 
 La función más interesante de esta versión es la **creación de un geofence**: un
 **polígono que encierra al dron**, de manera que el dron no pueda escapar del interior de ese
 polígono. Como puedes imaginar, esa es una **medida de seguridad extremadamente útil** para
-realizar vuelos reales. Observa cómo se fija los puntos (coordenadas geográficas) que definen
-el polígono y como se prepara la información que hay que enviarle a la librería de control del
+realizar vuelos reales. Observa cómo se fijan los puntos (coordenadas geográficas) que definen
+el polígono y còmo se prepara la información que hay que enviarle a la librería de control del
 dron para que establezca el geofence. Finalmente, es necesario **activar el geofence e indicar
 qué acción debe hacer el dron si llega al límite del greofence**, que es nuestra aplicación será
 quedarse parado en ese límite (fíjate ya de paso en la manera de cambiar cualquiera de los
@@ -608,9 +606,10 @@ Este vídeo contiene una explicación del código de esta versión y una demostr
 aplicación en funcionamiento. Fíjate que para ejecutar el código tendrás que instalar la librería
 [**tkintermapview**](#installs).
 
-[VIDEO] Demo etapa 2.A
 
----
+  <a href="https://www.youtube.com/watch?v=bQNr8IJ5veA">
+    <img src="https://img.youtube.com/vi/bQNr8IJ5veA/0.jpg" width="150" alt="">
+  </a>
 
 ### Retos
 
@@ -625,7 +624,7 @@ _goto_ de la librería.
 rastro que deja el dron en su movimiento**. Ese botón debe servir para **activar** el rastro y para
 **borrarlo**.
 
-### Más retos: 
+### Más retos
 
 La lista de cosas que se pueden hacer es esta versión es infinita. Te proponemos algunos retos
 (en muchos casos tendrás que investigar qué parámetros del dron hay que modificar):
@@ -644,11 +643,10 @@ geofence**.
 
 5. Modifica la función de dibujar el rastro para que puedas **activar o desactivar** **(no
 borrar**) el dibujo del rastro. De esta manera podrás hacer dibujos sobre el área de
-vuelo (como un pictionary que podría ver los extraterrestres)
+vuelo (como un pictionary que podrían ver los extraterrestres).
 
----
 
-## Etapa 2.B: Control del dron mediante poses
+## 10. Etapa 2.B: Control del dron mediante poses
 
 Puede encontrarse etiquetada con “**v2.B.1**”. Esta etapa puede realizarse inmediatamente
 después de la etapa 1 (**no se necesita el código desarrollado en la etapa 2.A**).
@@ -681,9 +679,11 @@ imagen de la cámara se envía a la clase _PoseDetector_ en la que se hacen las 
 necesarias para determinar qué pose hay en la imagen. Al recoger el resultado, la clase
 _BodyFram_e da la orden correspondiente al dron.
 
-[VIDEO] Demo etapa 2.B
 
----
+  <a href="https://www.youtube.com/watch?v=2kP3vmNhnFM">
+    <img src="https://img.youtube.com/vi/2kP3vmNhnFM/0.jpg" width="150" alt="">
+  </a>
+
 
 ### Reto
 
