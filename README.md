@@ -4,7 +4,7 @@
 
 ## **1. Presentación**
 
-<code style="color : red">Pruieba</code>
+<code style="color : magenta">Pruieba</code>
 Prueba    
 
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
