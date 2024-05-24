@@ -162,7 +162,7 @@ Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador S
 ## 7. La librería DronLib
 
 DronLib es la librería que vamos a usar para **darle ordenes al dron** (tanto al simulador SITL
-como al dron real). Es una **librería en desarrollo en la UPC** (y por tanto, no exenta de fallos) que
+como al dron real). Es una **librería en desarrollo** (y por tanto, no exenta de fallos) que
 pretende ser una alternativa a DroneKit, que es la más utilizada, pero que ya no está en
 mantenimiento y no es compatible con las versiones más avanzadas del intérprete de Python.
 
@@ -177,10 +177,9 @@ operación ordenada haya acabado**. Si la llamada es no bloqueante entonces **el
 devuelve inmediatamente** para que el programa pueda hacer otras cosas mientras se realiza la
 operación.
 
-Un ejemplo de método con estas dos opciones es _takeOff_, que tiene la siguiente cabecera:
+Un buen ejemplo de método con estas dos opciones es _takeOff_, que tiene la siguiente cabecera:
 
-
-```bash
+```
 def takeOff(self, aTargetAltitude, blocking=True, callback=None , params = None)
 ```
 
