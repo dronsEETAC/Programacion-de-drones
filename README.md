@@ -449,6 +449,12 @@ result = dron.getParams(parameters)
 values = json.loads(result)
 print('Valores:' ,values)
 ```
+
+El resultado podría ser:
+    
+```
+Valores: [{'RTL_ALT:' -1.0}, {'PILOT_SPEED_UP:' 100.0}, {'FENCE_ACTION:' 4.0}]
+```
      
 </td>
 </tr>
@@ -456,7 +462,9 @@ print('Valores:' ,values)
 <td>
        
 ```
-def go(self, direction))
+def setParams(self,
+   parameters,
+   blocking=True, callback=None, params = None)
 ```
     
 </td>
@@ -491,33 +499,6 @@ def go(self, direction))
 
 
 
-
----
-
-```bash
-def getParams(self,
-   parameters,
-   blocking=True, callback=None)
-```
-
-
-
-```bash
-parameters = json.dumps([
-    "RTL_ALT",
-    "PILOT_SPEED_UP",
-    "FENCE_ACTION"
-])
-result = dron.getParams(parameters)
-values = json.loads(result)
-print('Valores:' ,values)
-```
-
-El resultado podría ser:
-
-```bash
-Valores: [{'RTL_ALT:' -1.0}, {'PILOT_SPEED_UP:' 100.0}, {'FENCE_ACTION:' 4.0}]
-```
 
 ---
 
