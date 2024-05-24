@@ -1,7 +1,5 @@
 # Taller de Drones
 
-#### _Nombre del taller: Taller de Drones_
-
 ## **1. Presentación**
 
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
@@ -16,10 +14,6 @@ En este repositorio encontrarás:
 3. **Vídeos** que te guiarán durante el proceso.
    
 Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.
-
-<p>
-  <img src="UI.jpg" width="70%"/>
-</p>
 
 El taller admite diferentes grados de implicación. Puedes limitarte a instalar los códigos, 
 comprobar que funcionan correctamente y examinarlos. Eso no te llevará más de 1 hora.
@@ -105,27 +99,8 @@ https://www.jetbrains.com/pycharm/
 - **Python:** Necesitarás un intérprete de Python. Puedes utilizar las versiones más actuales.<br />
 https://www.python.org/downloads/
 
-Además, durante el taller tendrás que instalar en el entorno de desarrollo creado por Pycharm
-diferentes librerías. Por ejemplo:
-
-```bash
-from pymavlink import mavutil
-```
-
-```bash
-import tkintermapview
-import mediapipe as mp
-```
-
-Dónde: 
-
-- **_Pymavlink:_** contiene una gran variedad de funciones que permiten controlar el dron
-desde código en Python. 
-
-- **_TkinterMapView:_** widget para la librería Tkinter que permite la visualización y manipulación interactiva de mapas basados en mosaicos. Se usará en la rama **mapa** del proyecto.
-
-- **_Mediapipe:_** tiene una variedad de funciones para procesar imágenes. Es la librería que
-usaremos para detectar **poses** del cuerpo.
+Además, durante el taller tendrás que instalar en el entorno de desarrollo creado por Pycharm tres
+librerías diferentes: pymavlink (necesaria para la comunicación con el dron), tkintermapview (para trabajar con mapas) y mediapipe (para procesar las imágenes tomadas por la cámara y detectar, por ejemplo, poses del cuerpo).
 
 
 ## 4. Estructura del repositorio
@@ -155,8 +130,8 @@ La herramienta **Git te permite crear ramas para tus propios desarrollos.** De h
 muestra que el código tiene una rama principal **(main)** que se **divide en dos ramas (mapa y
 pose)** que luego **se funden de nuevo en la rama main.** **Tu puedes crear las ramas necesarias
 para tus desarrollos.** Por ejemplo, la [figura](#esquema) indica que se ha creado una rama llamada _reto1_ en
-la que el usuario desarrollará el código para abordar los retos de la etapa 1. De la misma forma
-han creado las ramas reto2.A y reto2.B para los retos de esas etapas. Naturalmente, **Git permite moverse por esa estructura de ramas y versiones**, lo cual permite, por ejemplo, consultar el código del reto resuelto en caso de ser necesario.
+la que el usuario desarrollará el código para abordar los retos de la etapa 1. De la misma forma se
+han creado las ramas reto2.A y reto2.B para los retos de esas etapas. Naturalmente, **con Git puedes moverte por esa estructura de ramas y versiones**, lo cual permite, por ejemplo, consultar el código del reto resuelto en caso de ser necesario.
 
 En el vídeo siguiente puedes ver cómo **clonar el repositorio**, **moverte por las diferentes
 versiones**, **crear las ramas** necesarias para tus propios desarrollos y **moverte por el repositorio
