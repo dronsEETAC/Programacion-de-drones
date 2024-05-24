@@ -146,14 +146,17 @@ de una rama a otra** o de una versión a otra. En los comentarios del segundo vi
 
 ## 6. Para empezar a programar
 
-Una vez instalado **Git, Mission Planner, Pycharm** y el intérprete de **Python**, mira este video e
-intenta reproducir en tu ordenador lo que ves en él.
+Una vez instalado **Git, Mission Planner, Pycharm** y el intérprete de **Python**, mira estos videos e
+intenta reproducir en tu ordenador lo que ves en ellos.
+Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador SITL**. También muestran cómo hacer un programa sencillo que **envía comandos al simulador del dron**, usando la librería _**DronLib**_, que está incluida en el repositorio de este taller.
+ 
+  <a href="https://www.youtube.com/watch?v=UPyklN9namM">
+    <img src="https://img.youtube.com/vi/UPyklN9namM/0.jpg" width="150" alt="">
+  </a>
 
-El video te muestra cómo **poner en marcha Mission Planner y el simulador SITL**. También
-muestra cómo hacer un programa sencillo que **envía comandos al simulador del dron**, usando
-la librería _**DronLib**_, que está incluida en el repositorio de este taller.
-
-[VÍDEO 3]
+   <a href="https://www.youtube.com/watch?v=P_NCKA_3-PQ">
+    <img src="https://img.youtube.com/vi/P_NCKA_3-PQ/0.jpg" width="150" alt="">
+  </a>
 
 
 ## 7.La librería DronLib
