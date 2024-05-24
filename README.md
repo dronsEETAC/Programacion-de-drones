@@ -6,22 +6,14 @@
 
 # Custom CSS in Markdown Example
 
-This is a document where tables are rendered with every second table row with a specific background and foreground colour 
-
 <style>
-tr:nth-child(even) {
-  background-color: #b2b2b2!important;
-  color: #f4f4f4!important;
+mark{
+    color:red;
 }
 </style>
 
-The above CSS will lead to the following table being rendered with alternating row colours:
+<mark>what is DataBase</mark>
 
-| Col 1 | Col 2 | Col 3 |
-| ----- | ----- | ----- |
-| A     | B     | C     |
-| 1     | 2     | 3     |
-| A1    | B2    | C3    |
 
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
 un dron**. Aprenderás a crear un programa con una **interfaz gráfica** que use botones para
