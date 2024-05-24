@@ -108,11 +108,9 @@ librerías diferentes: pymavlink (necesaria para la comunicación con el dron), 
 Una vez hayas instalado Git en tu ordenador, ya puedes clonar el repositorio, que está
 organizado tal y como muestra en la figura:
 
-<a id="esquema"></a>
 
-<p>
-  <img src="esquema2.jpg" width="60%"/>
-</p>
+<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/b0cd63c6-6d10-44c2-8e68-70c6462b2edc" width="300" height="200">
+
 
 En el repositorio puedes acceder al código de las 4 etapas, puesto que las diferentes versiones
 de la aplicación están convenientemente etiquetadas. Por ejemplo, en la etiqueta **V1.1
@@ -124,7 +122,7 @@ el código resultante de resolver los retos propuestos**.
 
 --- 
 
-### Git
+## 5.Git
 
 La herramienta **Git te permite crear ramas para tus propios desarrollos.** De hecho, la figura
 muestra que el código tiene una rama principal **(main)** que se **divide en dos ramas (mapa y
@@ -141,7 +139,7 @@ de una rama a otra** o de una versión a otra.
 
 ---
 
-### Para empezar a programar
+## 6. Para empezar a programar
 
 Una vez instalado **Git, Mission Planner, Pycharm** y el intérprete de **Python**, mira este video e
 intenta reproducir en tu ordenador lo que ves en él.
@@ -154,7 +152,7 @@ la librería _**DronLib**_, que está incluida en el repositorio de este taller.
 
 ---
 
-### La librería DronLib
+## 7.La librería DronLib
 
 DronLib es la librería que vamos a usar para **darle ordenes al dron** (tanto al simulador SITL
 como al dron real). Es una **librería en desarrollo en la UPC** (y por tanto, no exenta de fallos) que
