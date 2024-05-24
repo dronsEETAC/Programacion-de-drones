@@ -123,10 +123,10 @@ el código resultante de resolver los retos propuestos**.
 
 ## 5.Git
 
-La herramienta **Git te permite crear ramas para tus propios desarrollos.** De hecho, la figura
+La herramienta **Git te permite crear ramas para tus propios desarrollos.** De hecho, la figura del apartado anterior
 muestra que el código tiene una rama principal **(main)** que se **divide en dos ramas (mapa y
 pose)** que luego **se funden de nuevo en la rama main.** **Tu puedes crear las ramas necesarias
-para tus desarrollos.** Por ejemplo, la [figura](#esquema) indica que se ha creado una rama llamada _reto1_ en
+para tus desarrollos.** Por ejemplo, la figura indica que se ha creado una rama llamada _reto1_ en
 la que el usuario desarrollará el código para abordar los retos de la etapa 1. De la misma forma se
 han creado las ramas reto2.A y reto2.B para los retos de esas etapas. Naturalmente, **con Git puedes moverte por esa estructura de ramas y versiones**, lo cual permite, por ejemplo, consultar el código del reto resuelto en caso de ser necesario.
 
@@ -135,7 +135,12 @@ versiones**, **crear las ramas** necesarias para tus propios desarrollos y **mov
 de una rama a otra** o de una versión a otra.
 
   <a href="https://www.youtube.com/watch?v=BST5Dj4PqZ4">
-    <img src="https://img.youtube.com/vi/v=BST5Dj4PqZ4/0.jpg" width="250" alt="">
+    <img src="https://img.youtube.com/vi/BST5Dj4PqZ4/0.jpg" width="250" alt="">
+  </a>
+
+
+  <a href="https://www.youtube.com/watch?v=P_NCKA_3-PQ">
+    <img src="https://img.youtube.com/vi/P_NCKA_3-PQ/0.jpg" width="250" alt="">
   </a>
 
 
