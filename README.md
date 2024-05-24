@@ -1,21 +1,8 @@
-# Taller-de-Drones
+# Taller de Drones
 
 #### _Nombre del taller: Taller de Drones_
 
 ## **1. Presentación**
-
-<style>
-H1{color:Blue !important;}
-H2{color:DarkOrange !important;}
-p{color:Black !important;}
-</style>
-
-# Color Test Document
-
-## Second Heading
-
-This is a test to see how the colors work.
-
 
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
 un dron**. Aprenderás a crear un programa con una **interfaz gráfica** que use botones para
