@@ -698,6 +698,6 @@ hacer que el dron despegue si haces ante la cámara con la mano el signo de OK?)
 funciones detectan puntos clave de la cara (**¿puedes hacer que el dron aterrice si le guiñas el
 ojo izquierdo?**).    
 
-<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/f73f9463-336e-4258-bb2d-431084ce1d10" width="200" height="400">
+<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/f73f9463-336e-4258-bb2d-431084ce1d10" width="400" height="200">
 
 
