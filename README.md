@@ -319,9 +319,8 @@ def connect(self,
 el simulador o con el dron real**, y la **velocidad de comunicación**. Para conectar con el simulador
 típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velocidad es **115200**.
 La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
-en todas las funcione callback.   
-
-         
+en todas las funcione callback.  
+<br>
 </td>
 </tr>
 <tr>
@@ -336,9 +335,8 @@ def disconnect (self)
 <tr>   
 <td>  <b>Desconecta el dron</b>. Además, detiene el envío de datos de telemetría y espera 5 segundos antes
 de retornar.    
-
-         
 </td>
+<br>
 </tr>
 </table>
 
