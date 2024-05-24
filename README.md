@@ -661,9 +661,10 @@ en el que la coordenada x (eje horizontal) va de 0 a 1 y la coordenada y (eje ve
 1**. De esta forma, la **esquina superior izquierda** tiene la coordenada **(0,0)** y la **inferior derecha**
 tiene la coordenada **(1,1)**.
 
-<p>
-  <img src="poses_cuerpo.jpg" width="50%"/>
-</p>
+![imagen5](https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/9a4d7fba-22fa-44f6-a9ce-591faa6b324e)
+
+
+<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/9a4d7fba-22fa-44f6-a9ce-591faa6b324e" width="400" height="400">
 
 A partir de esta lista de coordenadas es fácil determinar si la pose del cuerpo es una
 determinada, comprobando la posición relativa de cada punto de la pose con el resto. En las
