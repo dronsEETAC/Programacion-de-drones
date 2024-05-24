@@ -132,7 +132,7 @@ han creado las ramas reto2.A y reto2.B para los retos de esas etapas. Naturalmen
 
 En los dos vídeos siguientes puedes ver cómo **clonar el repositorio**, **moverte por las diferentes
 versiones**, **crear las ramas** necesarias para tus propios desarrollos y **moverte por el repositorio
-de una rama a otra** o de una versión a otra.
+de una rama a otra** o de una versión a otra. En los comentarios del segundo video encontrarás un resumen de los **comandos de git** que se han usado en ambos vídeos.
 
   <a href="https://www.youtube.com/watch?v=BST5Dj4PqZ4">
     <img src="https://img.youtube.com/vi/BST5Dj4PqZ4/0.jpg" width="150" alt="">
@@ -140,7 +140,7 @@ de una rama a otra** o de una versión a otra.
 
 
   <a href="https://www.youtube.com/watch?v=gvXLxkuPaog">
-    <img src="https://img.youtube.com/vi/gvXLxkuPaog/0.jpg" width="250" alt="">
+    <img src="https://img.youtube.com/vi/gvXLxkuPaog/0.jpg" width="150" alt="">
   </a>
 
 
