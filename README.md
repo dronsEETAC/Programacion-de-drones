@@ -598,10 +598,6 @@ quedarse parado en ese límite (fíjate ya de paso en la manera de cambiar cualq
 muchos parámetros que tiene el dron, y que puedes listar desde Mission Planner clicando en
 Config -> _Full parameter list_).
 
-<p>
-  <img src="geofence.jpg" width="70%"/>
-</p>
-
 Este vídeo contiene una explicación del código de esta versión y una demostración de la
 aplicación en funcionamiento. Fíjate que para ejecutar el código tendrás que instalar la librería
 [**tkintermapview**](#installs).
@@ -677,7 +673,7 @@ Observa que en el código tenemos la clase _BodyFrame_ que muestra las imágenes
 los botones para poner en marcha la funcionalidad. En esa clase, una vez se obtiene una
 imagen de la cámara se envía a la clase _PoseDetector_ en la que se hacen las comprobaciones
 necesarias para determinar qué pose hay en la imagen. Al recoger el resultado, la clase
-_BodyFram_e da la orden correspondiente al dron.
+_BodyFrame_ da la orden correspondiente al dron.
 
 
   <a href="https://www.youtube.com/watch?v=2kP3vmNhnFM">
