@@ -35,6 +35,9 @@ cual tendrás que modificar solo un par de líneas de tu código). Naturalmente,
 taller se realiza de forma presencial en las instalaciones **del campus del Baix Llobregat de la
 UPC, en Castelldefels**.
 
+
+<img src="[https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c](https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075)" width="800" height="200">
+
 Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
 
   <a href="https://www.youtube.com/watch?v=P_NCKA_3-PQ">
