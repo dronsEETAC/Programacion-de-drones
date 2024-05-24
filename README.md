@@ -661,9 +661,6 @@ en el que la coordenada x (eje horizontal) va de 0 a 1 y la coordenada y (eje ve
 1**. De esta forma, la **esquina superior izquierda** tiene la coordenada **(0,0)** y la **inferior derecha**
 tiene la coordenada **(1,1)**.
 
-![imagen5](https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/9a4d7fba-22fa-44f6-a9ce-591faa6b324e)
-
-
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/9a4d7fba-22fa-44f6-a9ce-591faa6b324e" width="400" height="400">
 
 A partir de esta lista de coordenadas es fácil determinar si la pose del cuerpo es una
@@ -699,11 +696,8 @@ La librería _mediapipe_ incluye muchas otras funcionalidades que pueden inspira
 interesantes. Por ejemplo, hay funciones para detectar puntos clave de las **manos** (¿puedes
 hacer que el dron despegue si haces ante la cámara con la mano el signo de OK?). Otras
 funciones detectan puntos clave de la cara (**¿puedes hacer que el dron aterrice si le guiñas el
-ojo izquierdo?**).
+ojo izquierdo?**).    
 
-<p>
-  <img src="retos_finales.jpg" width="50%"/>
-</p>
+<img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/f73f9463-336e-4258-bb2d-431084ce1d10" width="200" height="400">
 
----
 
