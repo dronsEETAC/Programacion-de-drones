@@ -466,8 +466,8 @@ _BodyFrame_ da la orden correspondiente al dron.
 Entre las imágenes de referencia que aparecen al poner en marcha la versión inicial **hay 3 en
 rojo que no están implementadas**. Modifica el código para hacer que _PoseDetector_ detecte
 esas 3 nuevas poses y modifica el código de _BodyFrame_ para **asociar a cada una de esas 3
-poses una nueva operación del dron** (las que tu elijas).
-
+poses una nueva operación del dron** (las que tu elijas)
+    
 ### Más retos
 
 El número de poses que impliquen exclusivamente los puntos clave del 11 al 16 es limitado.
@@ -482,4 +482,5 @@ ojo izquierdo?**).
 
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/f73f9463-336e-4258-bb2d-431084ce1d10" width="400" height="200">
 
-
+## Etapa 3: Versión integrada
+Puedes encontrar en el tag “**v3**” la versión final que integra todos los retos propuestos en las etapas anteriores. Naturalmente, tu reto en esta etapa es integrar todos tus desarrollos (los retos que te hemos propuesto en cada etapa y los que te hayas propuesto tu mismo) en una sola versión. En esa tarea tendrás que usar el comando git para hacer el merge, tal y como viste en los vídeos del apartado 5. Es muy probable que te surjan conflictos que tendrás que resolver tal y como se indicó en esos vídeos.
