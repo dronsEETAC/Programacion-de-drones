@@ -320,7 +320,6 @@ el simulador o con el dron real**, y la **velocidad de comunicación**. Para con
 típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velocidad es **115200**.
 La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
 en todas las funcione callback.  
-<br>
 </td>
 </tr>
 <tr>
@@ -336,63 +335,162 @@ def disconnect (self)
 <td>  <b>Desconecta el dron</b>. Además, detiene el envío de datos de telemetría y espera 5 segundos antes
 de retornar.    
 </td>
-<br>
 </tr>
+<tr>
+<td>
+       
+```
+def arm(self, blocking=True, callback=None, params = None)
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Arma el dron<b/>
+</td>
+</tr>
+<tr>
+<td>
+       
+```
+def takeOff(self,
+   aTargetAltitude,
+   blocking=True, callback=None, params = None)
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Despega el dron </b> hasta alcanzar la altura indicada en el parámetro.  
+</td>
+</tr>
+<tr>
+<td>
+       
+```
+def startGo(self)
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Pone al dron en modo navegación </b>, para que acepte las ordenes de navegar en dirección Norte,
+Sur, etc.   
+</td>
+</tr>
+   <tr>
+<td>
+       
+```bash
+def stopGo(self)
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Para el modo navegación</b>. Es necesario hacer esto antes de ordenar otras operaciones (como por
+ejemplo dirigirse a un punto determinado).
+</td>
+</tr>
+
+<tr>
+<td>
+       
+```
+def changeNavSpeed (self, speed)
+```
+
+</td>
+</tr>
+<tr>   
+<td>  <b>Cambia la velocidad</b> con la que el dron va a navegar. 
+</td>
+</tr>
+<tr>
+<td>
+       
+```
+def go(self, direction))
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Hace que el dron navegue</b> en la dirección indicada. Las opciones son: _‘North’, ‘South’,
+‘West’, ‘East’, ‘NorthWest’, ‘NorthEast’, ‘SouthWest’, ‘SouthEast’, ‘Stop’_.
+</td>
+</tr>
+<tr>
+<td>
+       
+```bash
+def getParams(self,
+   parameters,
+   blocking=True, callback=None)
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Pide al dron el valor de los parámetros indicados</b>. En el caso de que la llamada sea o bloqueante,
+ejecutará la función del callback pasándole como parámetro la lista de valores recibida (y el
+identificador del dron como primer parámetro en el caso de que el dron haya sido identificando en
+el momento de la conexión). Este ejemplo **muestra cómo se pasa la lista de parámetros** (en
+formato **json**) cuyo valor se quiere recuperar y como se revuelve la lista de valores de esos
+parámetros.
+
+```bash
+parameters = json.dumps([
+    "RTL_ALT",
+    "PILOT_SPEED_UP",
+    "FENCE_ACTION"
+])
+result = dron.getParams(parameters)
+values = json.loads(result)
+print('Valores:' ,values)
+```
+     
+</td>
+</tr>
+<tr>
+<td>
+       
+```
+def go(self, direction))
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Hace que el dron navegue</b> en la dirección indicada. Las opciones son: _‘North’, ‘South’,
+‘West’, ‘East’, ‘NorthWest’, ‘NorthEast’, ‘SouthWest’, ‘SouthEast’, ‘Stop’_.
+</td>
+</tr>
+<tr>
+<td>
+       
+```
+def go(self, direction))
+```
+    
+</td>
+</tr>
+<tr>   
+<td>  <b>Hace que el dron navegue</b> en la dirección indicada. Las opciones son: _‘North’, ‘South’,
+‘West’, ‘East’, ‘NorthWest’, ‘NorthEast’, ‘SouthWest’, ‘SouthEast’, ‘Stop’_.
+</td>
+</tr>
+
 </table>
 
 
 
 
-```bash
-def arm(self, blocking=True, callback=None, params = None)
-```
 
-**Arma el dron.**
 
----
 
-```bash
-def takeOff(self,
-   aTargetAltitude,
-   blocking=True, callback=None, params = None)
-```
 
-**Despega el dron** hasta alcanzar la altura indicada en el parámetro.
 
----
-
-```bash
-def startGo(self)
-```
-
-**Pone al dron en modo navegación**, para que acepte las ordenes de navegar en dirección Norte,
-Sur, etc.
-
----
-
-```bash
-def stopGo(self)
-```
-
-**Para el modo navegación**. Es necesario hacer esto antes de ordenar otras operaciones (como por
-ejemplo dirigirse a un punto determinado).
-
----
-
-```bash
-def changeNavSpeed (self, speed)
-```
-
-**Cambia la velocidad** del dron cuando está en modo navegación.
-
----
-
-```bash
-def go(self, direction))
-```
-
-Hace que el dron navegue en la dirección indicada. Las opciones son: _‘North’, ‘South’,
-‘West’, ‘East’, ‘NorthWest’, ‘NorthEast’, ‘SouthWest’, ‘SouthEast’, ‘Stop’_.
 
 ---
 
@@ -402,12 +500,7 @@ def getParams(self,
    blocking=True, callback=None)
 ```
 
-**Pide al dron el valor de los parámetros indicados**. En el caso de que la llamada sea o bloqueante,
-ejecutará la función del callback pasándole como parámetro la lista de valores recibida (y el
-identificador del dron como primer parámetro en el caso de que el dron haya sido identificando en
-el momento de la conexión). Este ejemplo **muestra cómo se pasa la lista de parámetros** (en
-formato **json**) cuyo valor se quiere recuperar y como se revuelve la lista de valores de esos
-parámetros.
+
 
 ```bash
 parameters = json.dumps([
