@@ -2,40 +2,6 @@
 
 ## **1. Presentación**
 
-<table>
-<tr>
-<td> Status </td> <td> Response </td>
-</tr>
-<tr>
-<td> 200 </td>
-<td>
-
-↑ Blank line!
-```json
-json
-{
-    "id": 10,
-    "username": "alanpartridge",
-    "email": "alan@alan.com",
-    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
-    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
-    "created_at": "2015-02-14T20:45:26.433Z",
-    "updated_at": "2015-02-14T20:45:26.540Z"
-}
-```
-↓ Blank line!
-
-</td>
-</tr>
-<tr>
-<td> 400 </td>
-<td>
-
-**Markdown** _here_. (↕︎ Blank lines above and below!)
-
-</td>
-</tr>
-</table>
 
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
 un dron**. Aprenderás a crear un programa con una **interfaz gráfica** que use botones para
@@ -334,6 +300,33 @@ ejemplo, la altura del dron en todo momento.
 A continuación se describen las funciones de la clase Dron que se usan en este taller. En
 muchas de ellas aparecen los tres parámetros requeridos para implementar la modalidad no
 bloqueante (_blocking_, _callback_ y _params_).
+
+<table>
+<tr>
+<td>
+
+↑ Blank line!
+```
+def connect(self,
+  connection_string, baud,
+  id=None,
+  blocking=True, callback=None, params = None)
+```
+↓ Blank line!
+
+</td>
+</tr>
+<tr>
+<td>  **Conecta con el dron**. Los parámetros _connection_string_ y _baud_ indican si hay que **conectar con
+el simulador o con el dron real**, y la **velocidad de comunicación**. Para conectar con el simulador
+típicamente el string de conexión es: ‘**_tcp:127.0.0.1:5763_**’ y la velocidad es **115200**.
+La conexión admite una identificador para el dron, que la librería añadirá como primer parámetro
+en todas las funcione callback. 
+</td>
+
+</tr>
+</table>
+
 
 
 | Command |
