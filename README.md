@@ -192,14 +192,12 @@ este es un método de una clase** (en este caso, la clase Dron).
 
 Los siguientes ejemplos aclararán estas cuestiones.
 
----
+_Ejemplo 1_
 
-### Ejemplo 1
-
-```bash
+```
 from Dron import Dron
 dron = Dron()
-dron.connect (&#39;tcp:127.0.0.1:5763&#39;, 115200) # me conecto al simulador
+dron.connect ('tcp:127.0.0.1:5763', 115200) # me conecto al simulador
 print (‘Conectado’)
 dron.arm()
 print (‘Armado’)
@@ -209,14 +207,13 @@ print (‘En el aire a 8 metros de altura’)
 
 En este ejemplo todas las llamadas son bloqueantes.
 
---- 
 
-### Ejemplo 2
+_Ejemplo 2_
 
-```bash
+```
 from Dron import Dron
 dron = Dron()
-dron.connect (&#39;tcp:127.0.0.1:5763&#39;, 115200) # me conecto al simulador
+dron.connect ('tcp:127.0.0.1:5763', 115200) # me conecto al simulador
 print (‘Conectado’)
 dron.arm()
 print (‘Armado’)
@@ -224,41 +221,39 @@ dron.takeOff (8, blocking = False) # llamada no bloqueante, sin callback
 print (‘Hago otras cosas mientras se realiza el despegue’)
 ```
 
----
+_Ejemplo 3_
 
-### Ejemplo 3
-
-```bash
+```
 from Dron import Dron
 dron = Dron()
-dron.connect (&#39;tcp:127.0.0.1:5763&#39;, 115200) # me conecto al simulador
+dron.connect ('tcp:127.0.0.1:5763', 115200) # me conecto al simulador
 print (‘Conectado’)
 dron.arm()
-print (‘Armado’)
+print (‘Armado’)    
+     
 def enAire (): # esta es la función que se activa al acabar la operación (callback)
-print (‘Por fin ya estás en el aire a 8 metros de altura’)
+    print (‘Por fin ya estás en el aire a 8 metros de altura’)
+      
 # llamada no bloqueante con callback
 dron.takeOff (8, blocking = False, callback= enAire)
 print (‘Hago otras cosas mientras se realiza el despegue’)
 ```
 
----
+_Ejemplo 4_
 
-### Ejemplo 4
-
-```bash
+```
 from Dron import Dron
 dron = Dron()
-dron.connect (&#39;tcp:127.0.0.1:5763&#39;, 115200) # me conecto al simulador
+dron.connect ('tcp:127.0.0.1:5763', 115200) # me conecto al simulador
 print (‘Conectado’)
 dron.arm()
 print (‘Armado’)
-def informar (param):
-print (‘Mensaje del dron: ‘, param)
-# Llamada no bloqueante, con callback y parámetro para el callback
-dron.takeOff (8, blocking = False, callback= informar,
-params= ‘En el aire a 8 metros de altura’)
 
+def informar (param):
+   print (‘Mensaje del dron: ‘, param)
+
+# Llamada no bloqueante, con callback y parámetro para el callback
+dron.takeOff (8, blocking = False, callback= informar, params= ‘En el aire a 8 metros de altura’)
 print (‘Hago otras cosas mientras se realiza el despegue. Ya me avisarán’)
 ```
 
@@ -266,21 +261,21 @@ En este ejemplo usamos un **callback que puede ser utilizado en otros momentos**
 ejemplo al hacer un RTL no bloqueante, en cuyo caso el callback podría ser el mismo, pero con
 un parámetro diferente (como, por ejemplo, ‘Por fin en casa’).
 
----
+_Ejemplo 5_
 
-### Ejemplo 5
-
-```bash
+```
 from Dron import Dron
 dron = Dron()
 # conexión con identificador del dron
-dron.connect (&#39;tcp:127.0.0.1:5763&#39;, 115200, id=1)
+dron.connect ('tcp:127.0.0.1:5763', 115200, id=1)
 print (‘Conectado’)
 dron.arm()
 print (‘Armado’)
+     
 # La función del callback recibirá el id del dron como primer parámetro
 def informar (id, param):
-print (‘Mensaje del dron ‘+str(id) + ‘: ‘ + param)
+    print (‘Mensaje del dron ‘+str(id) + ‘: ‘ + param)
+    
 dron.takeOff (8, blocking = False, callback= informar,
 params= ‘En el aire a 8 metros de altura’)
 print (‘Hago otras cosas mientras se realiza el despegue. Ya me avisarán’)
