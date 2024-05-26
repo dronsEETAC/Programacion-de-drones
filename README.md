@@ -483,4 +483,7 @@ ojo izquierdo?**).
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/f73f9463-336e-4258-bb2d-431084ce1d10" width="400" height="200">
 
 ## Etapa 3: Versión integrada
-Puedes encontrar en el tag “**v3**” la versión final que integra todos los retos propuestos en las etapas anteriores. Naturalmente, tu reto en esta etapa es integrar todos tus desarrollos (los retos que te hemos propuesto en cada etapa y los que te hayas propuesto tu mismo) en una sola versión. En esa tarea tendrás que usar el comando git para hacer el merge, tal y como viste en los vídeos del apartado 5. Es muy probable que te surjan conflictos que tendrás que resolver tal y como se indicó en esos vídeos.
+Puedes encontrar en el tag “**v3**” la versión final que integra todos los retos propuestos en las etapas anteriores. 
+     
+## Reto
+Naturalmente, tu reto en esta etapa es integrar todos tus desarrollos (los retos que te hemos propuesto en cada etapa y los que te hayas propuesto tu mismo) en una sola versión. En esa tarea tendrás que usar el comando git para hacer el merge, tal y como viste en los vídeos del apartado 5. Es muy probable que te surjan conflictos que tendrás que resolver tal y como se indicó en esos vídeos.
