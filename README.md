@@ -38,10 +38,12 @@ UPC, en Castelldefels**.
 
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075" width="700" height="200">
 
-Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
 
-  <a href="https://www.youtube.com/watch?v=P_NCKA_3-PQ">
-    <img src="https://img.youtube.com/vi/P_NCKA_3-PQ/0.jpg" width="250" alt="">
+              
+Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
+         
+  <a href="https://www.youtube.com/watch?v=ryezfzIUBrE">
+    <img src="https://img.youtube.com/vi/ryezfzIUBrE/0.jpg" width="250" alt="">
   </a>
 
 
