@@ -181,11 +181,13 @@ def takeOff(self, aTargetAltitude, blocking=True, callback=None , params = None)
 ```
 
 Al llamar a este método hay que pasarle como parámetro la **altura de despegue**. Por defecto la
-operación es **bloqueante**. En el caso de usar la opción no bloqueante se puede indicar el
+operación es **bloqueante**. Por tanto, el programa que hace la llamada no se reanuda hasta que 
+el dron esté a la altura indicada. En el caso de usar la opción no bloqueante se puede indicar el
 nombre de la función que queremos que se ejecute cuando la operación haya acabado (que
-llamamos habitualmente **callback**). Incluso podemos indicar los parámetros que queremos que
-se le pasen a ese callback. **Recuerda que self no es ningún parámetro**. Simplemente **indica que
-este es un método de una clase** (en este caso, la clase Dron).
+llamamos habitualmente **callback**). En el caso de  takeOff, cuando el dron  esté a la altura indicada
+se activará la funcion callback. Incluso podemos indicar los parámetros que queremos que
+se le pasen a ese callback  en el momento en que se active. **Recuerda que self no es ningún parámetro**. 
+Simplemente **indica que este es un método de una clase** (en este caso, la clase Dron).
 
 Los siguientes ejemplos aclararán estas cuestiones.
 
@@ -217,6 +219,8 @@ print (‘Armado’)
 dron.takeOff (8, blocking = False) # llamada no bloqueante, sin callback
 print (‘Hago otras cosas mientras se realiza el despegue’)
 ```
+En este caso la llamada no es bloqueante. El programa continua su ejecución 
+mientras el dron  realiza el despegue. 
 
 _Ejemplo 3_
 
@@ -235,7 +239,10 @@ def enAire (): # esta es la función que se activa al acabar la operación (call
 dron.takeOff (8, blocking = False, callback= enAire)
 print (‘Hago otras cosas mientras se realiza el despegue’)
 ```
-
+De nuevo una llamada no bloqueante. Pero en este caso le estamos indicando que cuando 
+el dron esté a la altura indicada ejecute la función enAire, que en este caso simplemente
+nos informa del evento.     
+       
 _Ejemplo 4_
 
 ```
@@ -253,10 +260,11 @@ def informar (param):
 dron.takeOff (8, blocking = False, callback= informar, params= ‘En el aire a 8 metros de altura’)
 print (‘Hago otras cosas mientras se realiza el despegue. Ya me avisarán’)
 ```
-
-En este ejemplo usamos un **callback que puede ser utilizado en otros momentos**, como por
-ejemplo al hacer un RTL no bloqueante, en cuyo caso el callback podría ser el mismo, pero con
-un parámetro diferente (como, por ejemplo, ‘Por fin en casa’).
+En este caso en la llamada no bloqueante añadimos un parámetro que se le pasará al callback en 
+en el momento de activarlo. De esta forma, la misma función informar se puede usar  como callback
+para otras llamadas no bloqueantes. Por ejemplo, podríamos llamar de forma no bloqueante al método 
+para aterrizar y pasar le como callback también la función informar, pero ahora con elm  parámetro
+'Ya estoy en tierra', que es lo que escribiría en consola la función  informar en el momento del aterrizaje.
 
 _Ejemplo 5_
 
