@@ -26,7 +26,7 @@ que resuelven esos retos**, para el caso en que necesites ayuda. Esta modalidad 
 2 horas. Finalmente, puedes abordar tus propios retos, porque seguro que te vas a imaginar
 cosas. Ya no podemos indicarte cuántas horas te llevará eso, porque podrías consagrar tu vida
 entera a añadir funcionalidades interesantes.
-</div>
+</div>      
        
 Los códigos que vas a desarrollar interactúan en realidad con un **simulador del dron**, de
 manera que solo necesitas tu portátil, las instalaciones que te indicaremos y los códigos de
