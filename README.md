@@ -1,25 +1,22 @@
 # Taller de Drones
 
 ## **1. Presentación**
-<div align="justify">
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
 un dron**. Aprenderás a crear un programa con una **interfaz gráfica** que use botones para
 ordenar al dron que despegue o vuele en una dirección determinada. El programa también presentará al
 usuario un **mapa** en el que mostrará la posición del dron en todo momento y permitirá
 **guiar el dron con las poses de tu cuerpo**, utilizando técnicas de reconocimiento de imagen.
-</div>
-<br>
+      
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c" width="400" height="200">
-<br>
+       
 En este repositorio encontrarás:     
       
 1. Los **códigos** de referencia para la realización del taller.
 2. Material **escrito**.
-3. **Vídeos** que te guiarán durante el proceso.
-
+3. **Vídeos** que te guiarán durante el proceso.     
+     
 Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.     
-<br>
-<div align="justify">
+    
 El taller admite diferentes grados de implicación. Puedes limitarte a instalar los códigos, 
 comprobar que funcionan correctamente y examinarlos. Eso no te llevará más de 1 hora.
 Puedes también enfrentarte a unos cuantos retos concretos que te iremos proponiendo, y que
@@ -28,25 +25,22 @@ que resuelven esos retos**, para el caso en que necesites ayuda. Esta modalidad 
 2 horas. Finalmente, puedes abordar tus propios retos, porque seguro que te vas a imaginar
 cosas. Ya no podemos indicarte cuántas horas te llevará eso, porque podrías consagrar tu vida
 entera a añadir funcionalidades interesantes.
-</div>      
-<br>      
-<div align="justify">
+      
 Los códigos que vas a desarrollar interactúan en realidad con un **simulador del dron**, de
 manera que solo necesitas tu portátil, las instalaciones que te indicaremos y los códigos de
 referencia. No obstante, existe un segundo taller en el que tus códigos harán volar un **dron real** (para lo
 cual tendrás que modificar solo un par de líneas de tu código). Naturalmente, ese segundo
 taller se realiza de forma presencial en las instalaciones **del campus del Baix Llobregat de la
-UPC, en Castelldefels**.
-</div>
-<br>
+UPC, en Castelldefels**.     
+      
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075" width="700" height="200">
-<br>          
+     
 Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
-<br>    
+      
   <a href="https://www.youtube.com/watch?v=ryezfzIUBrE">
     <img src="https://img.youtube.com/vi/ryezfzIUBrE/0.jpg" width="250" alt="">
   </a>
-<br>
+      
 
 
 ## 2. Etapas del taller
