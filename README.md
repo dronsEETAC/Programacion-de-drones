@@ -16,8 +16,8 @@ En este repositorio encontrarás:
 1. Los **códigos** de referencia para la realización del taller.
 2. Material **escrito**.
 3. **Vídeos** que te guiarán durante el proceso.
-<br>
-Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.
+
+Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.     
 <br>
 <div align="justify">
 El taller admite diferentes grados de implicación. Puedes limitarte a instalar los códigos, 
