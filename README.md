@@ -27,7 +27,7 @@ que resuelven esos retos**, para el caso en que necesites ayuda. Esta modalidad 
 cosas. Ya no podemos indicarte cuántas horas te llevará eso, porque podrías consagrar tu vida
 entera a añadir funcionalidades interesantes.
 </div>
-
+       
 Los códigos que vas a desarrollar interactúan en realidad con un **simulador del dron**, de
 manera que solo necesitas tu portátil, las instalaciones que te indicaremos y los códigos de
 referencia.
