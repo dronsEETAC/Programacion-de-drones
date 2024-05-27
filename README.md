@@ -4,8 +4,8 @@
       
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
 un dron**. Aprenderás a crear un programa con una **interfaz gráfica** que use botones para
-ordenar al dron que despegue o vuele en una dirección determinada, que presentará al
-usuario un **mapa** en el que mostrará la posición del dron en todo momento y que permitirá
+ordenar al dron que despegue o vuele en una dirección determinada. El programa también presentará al
+usuario un **mapa** en el que mostrará la posición del dron en todo momento y permitirá
 **guiar el dron con las poses de tu cuerpo**, utilizando técnicas de reconocimiento de imagen.
 
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c" width="400" height="200">
@@ -16,8 +16,8 @@ En este repositorio encontrarás:
 3. **Vídeos** que te guiarán durante el proceso.
    
 Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.
-<div style="text-align: justify"> your-text-here </div>
 
+<div style="text-align: justify">
 El taller admite diferentes grados de implicación. Puedes limitarte a instalar los códigos, 
 comprobar que funcionan correctamente y examinarlos. Eso no te llevará más de 1 hora.
 Puedes también enfrentarte a unos cuantos retos concretos que te iremos proponiendo, y que
@@ -26,6 +26,7 @@ que resuelven esos retos**, para el caso en que necesites ayuda. Esta modalidad 
 2 horas. Finalmente, puedes abordar tus propios retos, porque seguro que te vas a imaginar
 cosas. Ya no podemos indicarte cuántas horas te llevará eso, porque podrías consagrar tu vida
 entera a añadir funcionalidades interesantes.
+</div>
 
 Los códigos que vas a desarrollar interactúan en realidad con un **simulador del dron**, de
 manera que solo necesitas tu portátil, las instalaciones que te indicaremos y los códigos de
@@ -79,7 +80,7 @@ ambiciosos que esperamos que despierten tu interés.
 
 Para realizar el taller necesitarás instalar en tu ordenador las herramientas siguientes:
 
-- **Git:** Es una herramienta muy popular para la gestión de versiones. Con esta herramienta
+- **Git:** Es una herramienta muy popular para la gestión de versiones de código. Con esta herramienta
 podrás instalar en tu ordenador (clonar) este repositorio y acceder a los códigos de las
 diferentes etapas.<br />
 https://git-scm.com/downloads
@@ -94,14 +95,14 @@ funcionamiento de los códigos antes de usarlos para controlar el dron real (cos
 hacer si realizas el segundo taller al que hemos hecho referencia en la presentación).<br />
 https://ardupilot.org/planner/docs/mission-planner-installation.html
 
-- **PyCharm:** Se trata de la aplicación más popular para el desarrollo de código en Python.
-Asegurate de instalar la versión denominada Community Edition, que es gratuita y más que
-suficiente.<br />
-https://www.jetbrains.com/pycharm/
-
 - **Python:** Necesitarás un intérprete de Python. Puedes utilizar las versiones más actuales.<br />
 https://www.python.org/downloads/
 
+- **PyCharm:** Se trata de la aplicación más popular para el desarrollo de código en Python.
+Asegúrate de instalar la versión denominada Community Edition, que es gratuita y más que
+suficiente.<br />
+https://www.jetbrains.com/pycharm/
+     
 Además, durante el taller tendrás que instalar en el entorno de desarrollo creado por Pycharm tres
 librerías diferentes: pymavlink (necesaria para la comunicación con el dron), tkintermapview (para trabajar con mapas) y mediapipe (para procesar las imágenes tomadas por la cámara y detectar, por ejemplo, poses del cuerpo).
 
@@ -128,7 +129,7 @@ el código resultante de resolver los retos propuestos**.
 
 La herramienta **Git te permite crear ramas para tus propios desarrollos.** De hecho, la figura del apartado anterior
 muestra que el código tiene una rama principal **(main)** que se **divide en dos ramas (mapa y
-pose)** que luego **se funden de nuevo en la rama main.** **Tu puedes crear las ramas necesarias
+pose)** que luego **se funden de nuevo en la rama main.** **Tú puedes crear las ramas necesarias
 para tus desarrollos.** Por ejemplo, la figura indica que se ha creado una rama llamada _reto1_ en
 la que el usuario desarrollará el código para abordar los retos de la etapa 1. De la misma forma se
 han creado las ramas reto2.A y reto2.B para los retos de esas etapas. Naturalmente, **con Git puedes moverte por esa estructura de ramas y versiones**, lo cual permite, por ejemplo, consultar el código del reto resuelto en caso de ser necesario.
@@ -149,7 +150,7 @@ de una rama a otra** o de una versión a otra. En la descripción de los vídeos
 
 ## 6. Para empezar a programar
 
-Una vez instalado **Git, Mission Planner, Pycharm** y el intérprete de **Python**, mira estos videos e
+Una vez instalado **Git, Mission Planner, el intérprete de **Python** y Pycharm**, mira estos videos e
 intenta reproducir en tu ordenador lo que ves en ellos.
 Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador SITL**. También muestran cómo hacer un programa sencillo que **envía comandos al simulador del dron**, usando la librería _**DronLib**_, que está incluida en el repositorio de este taller.
  
