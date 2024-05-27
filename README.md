@@ -16,6 +16,7 @@ En este repositorio encontrarás:
 3. **Vídeos** que te guiarán durante el proceso.
    
 Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.
+<div style="text-align: justify"> your-text-here </div>
 
 El taller admite diferentes grados de implicación. Puedes limitarte a instalar los códigos, 
 comprobar que funcionan correctamente y examinarlos. Eso no te llevará más de 1 hora.
