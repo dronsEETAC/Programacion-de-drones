@@ -27,16 +27,16 @@ que resuelven esos retos**, para el caso en que necesites ayuda. Esta modalidad 
 cosas. Ya no podemos indicarte cuántas horas te llevará eso, porque podrías consagrar tu vida
 entera a añadir funcionalidades interesantes.
 </div>      
-       
+
+      
+<div align="justify">
 Los códigos que vas a desarrollar interactúan en realidad con un **simulador del dron**, de
 manera que solo necesitas tu portátil, las instalaciones que te indicaremos y los códigos de
-referencia.
-
-No obstante, existe un segundo taller en el que tus códigos harán volar un **dron real** (para lo
+referencia. No obstante, existe un segundo taller en el que tus códigos harán volar un **dron real** (para lo
 cual tendrás que modificar solo un par de líneas de tu código). Naturalmente, ese segundo
 taller se realiza de forma presencial en las instalaciones **del campus del Baix Llobregat de la
 UPC, en Castelldefels**.
-
+</div>
 
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075" width="700" height="200">
 
