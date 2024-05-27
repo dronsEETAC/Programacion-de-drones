@@ -17,7 +17,7 @@ En este repositorio encontrarás:
    
 Aprenderás instalando esos códigos, analizándolos, modificándolos y ampliándolos.
 
-<div style="text-align: justify">
+<div align="justify">
 El taller admite diferentes grados de implicación. Puedes limitarte a instalar los códigos, 
 comprobar que funcionan correctamente y examinarlos. Eso no te llevará más de 1 hora.
 Puedes también enfrentarte a unos cuantos retos concretos que te iremos proponiendo, y que
