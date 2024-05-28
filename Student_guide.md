@@ -135,10 +135,8 @@ de una rama a otra** o de una versión a otra. En la descripción de los vídeos
     <img src="https://img.youtube.com/vi/BST5Dj4PqZ4/0.jpg" width="150" alt="">
   </a>
 
+<video src='https://www.youtube.com/watch?v=gvXLxkuPaog' width=150/>
 
-  <a href="https://www.youtube.com/watch?v=gvXLxkuPaog">
-    <img src="https://img.youtube.com/vi/gvXLxkuPaog/0.jpg" width="150" alt="">
-  </a>
 
 
 ## 6. Para empezar a programar
