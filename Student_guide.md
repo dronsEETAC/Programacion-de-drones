@@ -134,8 +134,10 @@ de una rama a otra** o de una versión a otra. En la descripción de los vídeos
   <a href="https://www.youtube.com/watch?v=BST5Dj4PqZ4">
     <img src="https://img.youtube.com/vi/BST5Dj4PqZ4/0.jpg" width="150" alt="">
   </a>
+  <a href="https://www.youtube.com/watch?v=gvXLxkuPaog">
+    <img src="https://img.youtube.com/vi/gvXLxkuPaog/1.jpg" width="150" alt="">
+  </a>
 
-<video src='https://www.youtube.com/watch?v=gvXLxkuPaog' width=150/>
 
 
 
