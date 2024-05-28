@@ -1,5 +1,6 @@
 # Taller-de-Drones
-Workshop title: _Taller de Drones_
+Workshop title: _**Taller de Drones**_   
+    
 In this workshop students will learn how to develop Python programs to control the operation of a drone. They will learn to create a program with a graphical interface that uses buttons to order the drone to take off or fly in a certain direction. The program will present the user with a map showing the position of the drone and allowing the drone to be guided with the poses of the body, using image recognition techniques.    
      
 This repository provides a [student guide](Student_guide.md) with the required reference codes together with written and video materials to guide students during the process.    
