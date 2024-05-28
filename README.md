@@ -10,6 +10,5 @@ This workshop has been created by Mariona Anglès, Pablo Royo and Miguel Valero,
       
 # Contact     
     
-If you have any questions, feedback, or inquiries about the content on this repository, please feel free to reach out to our team using the following email address:
-•	pablo.royo@upc.edu
+If you have any questions, feedback, or inquiries about the content on this repository, please feel free to contact pablo.royo@upc.edu
 
