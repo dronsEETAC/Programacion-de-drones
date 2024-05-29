@@ -113,12 +113,12 @@ La web app solo puede trabajar en modo de comunicación global (ver el apartado 
 El mundo de las web apps no es fácil, pero es altamente motivador. Nos aleja de la programación en Python porque ahora hay que programar en JavaScript, TypeScript, HTML, CSS, etc. Aquí puede accederse a un tutorial que puede ayudar a introducirse en el tema, y que incluye aspectos tales como comunicaciones a través de un bróker MQTT.
 
   <a href="https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B">
-    <img src="https://img.youtube.com/vi/XCn9stPZ4iY/1.jpg" width="250" alt="">
+    <img src="https://img.youtube.com/vi/XCn9stPZ4iY/4.jpg" width="250" alt="">
   </a>
 
 
 El código que se desarrolla a lo largo de ese tutorial puede encontrarse aqui:      
-[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-code_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
+[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/codigo_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
 
 
 
