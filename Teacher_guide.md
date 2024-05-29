@@ -82,8 +82,16 @@ Naturalmente, el trabajo no puede dares por acabado sin haber hecho una prueba d
 Uno de los usos de los drones que más se están extendiendo es el reconocimiento de objetos desde el aire (por ejemplo, para contabilizar el número de personas en una manifestación o el número de ovejas en el rebaño). Las técnicas más utilizadas actualmente para este propósito son las redes neuronales convolucionales, cuyo desarrollo se ha visto favorecido por las mejoras de los algoritmos, el aumento de la capacidad de computación accesible para todos y el aumento de colecciones de imágenes necesarias para el entrenamiento de las redes.
 Aprender cómo funcionan las redes neuronales para reconocer objetos e incorporar esa funcionalidad a la aplicación desarrollada en este taller puede ser una aventura apasionante.    
       
-En este repositorio puede encontrarse un tutorial básico sobre cómo crear una red neuronal e integrarla en una aplicación en Python. Se facilitan videos para ilustrar el proceso y los códigos de referencia.
-REPOSITORIO
+Este es un tutorial básico sobre cómo crear una red neuronal e integrarla en una aplicación en Python.   
+
+<a href="https://www.youtube.com/playlist?list=PLyAtSQhMsD4qWd33j4rxHd13iO_GUXK4N">
+    <img src="https://img.youtube.com/vi/XCn9stPZ4iY/0.jpg" width="250" alt="">
+</a>
+
+
+Este es el repositorio con el código que se usa en el video: [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/TelecoRenta-tutorial_code-blue.svg)](https://github.com/dronsEETAC/TutorialRedesNeuronales.git)
+
+
 
 ## Modelos de comunicación
 La aplicación desarrollada en el taller utiliza un modo de comunicación que denominamos directo. El propio código de la interfaz de usuario es el que ejecuta las operaciones de control del dron, llamando a los métodos adecuados de la clase Dron, dependiendo, por ejemplo, del botón pulsado por el usuario. Naturalmente, el portátil en el que se ejecuta la aplicación tiene que estar conectado directamente al dron a través de la radio de telemetría.    
