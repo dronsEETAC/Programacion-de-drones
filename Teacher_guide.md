@@ -127,10 +127,20 @@ El mundo de las web apps no es fácil, pero es altamente motivador. Nos aleja de
   <a href="https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B">
     <img src="https://img.youtube.com/vi/XCn9stPZ4iY/0.jpg" width="250" alt="">
   </a>
-
-
+       
 El código que se desarrolla a lo largo de ese tutorial puede encontrarse aqui:      
 [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/telecoRenta-codigo_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
+
+## Raspberry Pi
+En uno de los videos mencionados en el apartado X se sugiere un escenario interesante en el que el autopilotService se ejecuta en una Raspberry Pi, que naturalmente tiene que estar conectada a internet para recibir las notificaciones del bróker cuando nuestra aplicación solicite algún servicio.    
+    
+En una situación real, la Raspberry Pi estaría instalada en el dron y conectada al autopiloto sobre el que operaría directamente para realizar la operación solicitada desde la aplicación.     
+    
+Pero puede ser interesante hacer que la Raspberry Pi no actúe sobre el autopiloto real sino sobre el simulador. Esto puede ser útil para verificar que el código funciona correctamente antes de instalar la Raspberry Pi en el dron y hacer pruebas de vuelo real. También puede ser interesante si se dispone de la Raspberry Pi pero no del dron.   
+
+Aquí puede encontrarse una [guía para la configuración de una Raspberry Pi], aunque hay muchos tutoriales en internet que explican bien ese proceso. Lo importante es que, para implementar el esquema que proponemos aquí, es necesario que la Raspberry Pi esté conectada a la misma wifi que el portátil en el que estará ejecutándose el simulador SITL, de manera que cuando el autopiotService se conecte use como connection_string _'tcp:xxxxxxx:5763'_, siendo _xxxxxx_ la ip que tiene asignada el portátil en el que se ejecuta el SITL (que puede averiguarse con el comando de Windows _ipconfig_).
+
+
 
 
 
