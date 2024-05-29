@@ -85,11 +85,11 @@ Aprender cómo funcionan las redes neuronales para reconocer objetos e incorpora
 Este es un tutorial básico sobre cómo crear una red neuronal e integrarla en una aplicación en Python.   
 
 <a href="https://www.youtube.com/playlist?list=PLyAtSQhMsD4qWd33j4rxHd13iO_GUXK4N">
-    <img src="https://img.youtube.com/vi/XCn9stPZ4iY/0.jpg" width="250" alt="">
+    <img src="https://img.youtube.com/vi/WwxhAen-rvc/0.jpg" width="250" alt="">
 </a>
 
 
-Este es el repositorio con el código que se usa en el video: [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/TelecoRenta-tutorial_code-blue.svg)](https://github.com/dronsEETAC/TutorialRedesNeuronales.git)
+Este es el repositorio con el código que se usa en el video: [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/TelecoRenta-codigo_tutorial_redes_neuronales-blue.svg)](https://github.com/dronsEETAC/TutorialRedesNeuronales.git)
 
 
 
