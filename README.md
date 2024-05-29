@@ -5,7 +5,7 @@ In this workshop students will learn how to develop Python programs to control t
    
 This repository provides a [student guide](Student_guide.md) with the required reference codes together with written and video materials to guide students during the process.    
     
-The repository also contains a [teacher guide](Teacher_guide.md) with recommendation on how to use the workshop material in class but also with additional materials to go much further and propose ambitious projects on topics such as image recognition using neural networks or web app development.     
+The repository also contains a teacher guide with recommendation on how to use the workshop material in class but also with additional materials to go much further and propose ambitious projects on topics such as image recognition using neural networks or web app development.     
 
 ## About    
 This workshop has been created by Mariona Anglès, Pablo Royo and Miguel Valero, members of the research group ICARUS at EETAC – UPC, in the frame of the TelecoRenta Proyect from the UNICO 5G Program.   
