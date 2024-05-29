@@ -109,8 +109,9 @@ En estos vídeos puede encontrarse una explicación de todos estos conceptos, qu
   </a>
 
 
-Y en este otro puede encontrarse una explicación sencilla de como usar un bróker MQTT en Python.    
-MQTT   
+Y aquí puede encontrarse una explicación sencilla de como usar un bróker MQTT en Python.       
+   
+[MQTT Python](https://www.emqx.com/en/blog/how-to-use-mqtt-in-python) 
 
 Se abre aquí una puerta al apasionante mundo de las comunicaciones a través de internet y a la posibilidad de plantear interesantes y divertidos proyectos. El más obvio de todos es construir un sencillo autopilotService y modificar la aplicación desarrollada en este taller para que trabaje en modo global, siguiendo el ejemplo que se muestra en el vídeo anterior. Y a partir de ahí es fácil imaginar retos divertidos como, por ejemplo, implementar un juego en el que diferentes usuarios cooperan para completar una misión, turnándose para llevar el dron de un sitio a otro. O incluso un juego de competición en el que cada usuario tiene que llevar el dron a un destino concreto y el sistema va asignando turnos de manera aleatoria para que cada usuario disponga de un periodo de tiempo (quizá también aleatorio) para acercar el dron a su objetivo antes de perder el turno.     
       
