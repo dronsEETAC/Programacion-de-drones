@@ -103,8 +103,11 @@ También es el adecuado cuando queremos que sean varios usuarios los que puedan 
      
 Entre los diferentes modelos de comunicación a través de internet que pueden usarse, uno especialmente adecuado para este contexto es la comunicación a través de un bróker que implementa el protocolo MQTT. De acuerdo con este modelo, los dispositivos/procesos que quieren comunicarse (en este caso la aplicación y el autopilotService) lo hacen mediante un mecanismo de subscripción/publicación. Todos los implicados se conectan al bróker y cuando uno de ellos hace una publicación sobre un tema determinado (por ejemplo, un comando para el autopilotService) todos los subscritos a ese tema reciben del bróker una notificación. El protocolo MQTT es uno de los más usados en el mundo del internet de las cosas (IoT) porque es muy intuitivo y ligero.    
       
-En este vídeo puede encontrarse una explicación de todos estos conceptos, que se ilustran con un ejemplo.   
-VIDEO 
+En estos vídeos puede encontrarse una explicación de todos estos conceptos, que se ilustran con un ejemplo.   
+  <a href="https://www.youtube.com/playlist?list=PLyAtSQhMsD4padff51h_2iO-8Mcwin_Y5">
+    <img src="https://img.youtube.com/vi/cWMWHKHL0zc/0.jpg" width="250" alt="">
+  </a>
+
 
 Y en este otro puede encontrarse una explicación sencilla de como usar un bróker MQTT en Python.    
 MQTT   
