@@ -145,7 +145,7 @@ En una situación real, la Raspberry Pi estaría instalada en el dron y conectad
     
 Pero puede ser interesante hacer que la Raspberry Pi no actúe sobre el autopiloto real sino sobre el simulador. Esto puede ser útil para verificar que el código funciona correctamente antes de instalar la Raspberry Pi en el dron y hacer pruebas de vuelo real. También puede ser interesante si se dispone de la Raspberry Pi pero no del dron.   
 
-Aquí puede encontrarse una [guía para la configuración de una Raspberry Pi], aunque hay muchos tutoriales en internet que explican bien ese proceso. Lo importante es que, para implementar el esquema que proponemos aquí, es necesario que la Raspberry Pi esté conectada a la misma wifi que el portátil en el que estará ejecutándose el simulador SITL, de manera que cuando el autopiotService se conecte use como connection_string _'tcp:xxxxxxx:5763'_, siendo _xxxxxx_ la ip que tiene asignada el portátil en el que se ejecuta el SITL (que puede averiguarse con el comando de Windows _ipconfig_).
+Aquí puede encontrarse una [guía para la configuración de una Raspberry Pi](materiales_profesorado/configuracionRPi.pdf), aunque hay muchos tutoriales en internet que explican bien ese proceso. Lo importante es que, para implementar el esquema que proponemos aquí, es necesario que la Raspberry Pi esté conectada a la misma wifi que el portátil en el que estará ejecutándose el simulador SITL, de manera que cuando el autopiotService se conecte use como connection_string _'tcp:xxxxxxx:5763'_, siendo _xxxxxx_ la ip que tiene asignada el portátil en el que se ejecuta el SITL (que puede averiguarse con el comando de Windows _ipconfig_).
 
 
 
