@@ -1,6 +1,11 @@
 # Guía del profesor
+## 1. Presentación   
 
-## Ampliación de la librería dronLib
+## 2. Observaciones sobre el taller  
+
+## 3. ¿Cómo usar el material del taller en una asignatura?
+
+## 4. Ampliación de la librería dronLib
 La librería que se ha usado en el taller (DronLib) está en desarrollo. En la versión disponible en el repositorio del taller tiene un mínimo conjunto de métodos, suficientes para los objetivos del taller. Pero naturalmente es posible ampliar en gran medida las funcionalidades de la librería. Este puede ser un proyecto interesante: organizar a los alumnos del curso en equipos y encargar a cada equipo que desarrolle algunas funcionalidades adicionales a la librería.    
       
 No es un ejercicio fácil, porque hay que hacer una búsqueda de información sobre qué cosas pueden hacerse con la librería pymavlink que, aunque es fácil encontrar información sobre ella en internet, no es una librería fácil de usar. Por otra parte, hay que implementar después los nuevos métodos siguiendo la filosofía de DronLib (por ejemplo, implementando la versión bloqueante y la no bloqueante, cuando eso tenga sentido.     
@@ -78,7 +83,7 @@ from modules.dron_setGeofence import setGEOFence, _setGEOFence, getGEOFence, _ge
      
 Naturalmente, el trabajo no puede dares por acabado sin haber hecho una prueba de que el nuevo método funciona correctamente, tanto en su versión bloqueante como en la no bloqueante. En el código de la etapa 2A sería fácil hacer una llamada inmediatamente después de haber creado el geofence, para comprobar que el nuevo método ha leído correctamente los puntos del geofence.
 
-## Reconocimiento de objetos mediante redes neuronales
+## 5. Reconocimiento de objetos mediante redes neuronales
 Uno de los usos de los drones que más se están extendiendo es el reconocimiento de objetos desde el aire (por ejemplo, para contabilizar el número de personas en una manifestación o el número de ovejas en el rebaño). Las técnicas más utilizadas actualmente para este propósito son las redes neuronales convolucionales, cuyo desarrollo se ha visto favorecido por las mejoras de los algoritmos, el aumento de la capacidad de computación accesible para todos y el aumento de colecciones de imágenes necesarias para el entrenamiento de las redes.
 Aprender cómo funcionan las redes neuronales para reconocer objetos e incorporar esa funcionalidad a la aplicación desarrollada en este taller puede ser una aventura apasionante.    
       
@@ -93,7 +98,7 @@ Este es el repositorio con el código que se usa en el video: [![DroneEngineerin
 
 
 
-## Modelos de comunicación
+## 6. Modelos de comunicación
 La aplicación desarrollada en el taller utiliza un modo de comunicación que denominamos directo. El propio código de la interfaz de usuario es el que ejecuta las operaciones de control del dron, llamando a los métodos adecuados de la clase Dron, dependiendo, por ejemplo, del botón pulsado por el usuario. Naturalmente, el portátil en el que se ejecuta la aplicación tiene que estar conectado directamente al dron a través de la radio de telemetría.    
 
 Una organización alternativa es lo que llamamos comunicación global. En este caso, existe un servicio especial, que solemos denominar autopilotService, que está separado de la interfaz gráfica y que es el responsable de controlar el dron. En este caso, cuando el usuario pulsa un botón la interfaz gráfica hace una petición al autopilotService que es el que finalmente da la orden al dron.
@@ -115,7 +120,7 @@ Y aquí puede encontrarse una explicación sencilla de como usar un bróker MQTT
 
 Se abre aquí una puerta al apasionante mundo de las comunicaciones a través de internet y a la posibilidad de plantear interesantes y divertidos proyectos. El más obvio de todos es construir un sencillo autopilotService y modificar la aplicación desarrollada en este taller para que trabaje en modo global, siguiendo el ejemplo que se muestra en el vídeo anterior. Y a partir de ahí es fácil imaginar retos divertidos como, por ejemplo, implementar un juego en el que diferentes usuarios cooperan para completar una misión, turnándose para llevar el dron de un sitio a otro. O incluso un juego de competición en el que cada usuario tiene que llevar el dron a un destino concreto y el sistema va asignando turnos de manera aleatoria para que cada usuario disponga de un periodo de tiempo (quizá también aleatorio) para acercar el dron a su objetivo antes de perder el turno.     
       
-## Web Apps
+## 7. Web Apps
 Para poder usar la aplicación que se ha desarrollado en este taller es necesario instalarla en el portátil que se va a conectar al dron. Imaginemos ahora que queremos controlar el dron desde nuestro teléfono móvil y que, además, no queremos tener que instalar ninguna aplicación en el teléfono (que lo tenemos a tope de apps). Ese interesante objetivo nos empuja al mundo de las web Apps.     
        
 Una web app no es más que un servidor web que se está ejecutando en algún servidor conectado a internet. Desde el móvil podemos conectarnos a esa web exactamente igual que nos conectamos a cualquier otra (como, por ejemplo, un periódico digital). Pero ahora lo que nos va aparecer en la pantalla del móvil es un conjunto de botones para controlar el dron. Incluso lo que vemos en el móvil puede parecerse bastante que lo que muestra la interfaz gráfica de la aplicación desarrollada en este taller.     
@@ -131,7 +136,9 @@ El mundo de las web apps no es fácil, pero es altamente motivador. Nos aleja de
 El código que se desarrolla a lo largo de ese tutorial puede encontrarse aqui:      
 [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/telecoRenta-codigo_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
 
-## Raspberry Pi
+## 8. El dron   
+    
+## 9. Raspberry Pi
 En uno de los videos mencionados en el apartado X se sugiere un escenario interesante en el que el autopilotService se ejecuta en una Raspberry Pi, que naturalmente tiene que estar conectada a internet para recibir las notificaciones del bróker cuando nuestra aplicación solicite algún servicio.    
     
 En una situación real, la Raspberry Pi estaría instalada en el dron y conectada al autopiloto sobre el que operaría directamente para realizar la operación solicitada desde la aplicación.     
