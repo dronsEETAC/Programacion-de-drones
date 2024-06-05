@@ -161,7 +161,7 @@ Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador S
 DronLib es la librería que vamos a usar para **darle ordenes al dron** (tanto al simulador SITL
 como al dron real). Es una **librería en desarrollo** (y por tanto, no exenta de fallos) que
 pretende ser una alternativa a DroneKit, que es la más utilizada, pero que ya no está en
-mantenimiento y tiene problemas de compatibilidad con las versiones más avanzadas del intérprete de Python. No obstante, aquí puede verse una solución al problema de compatibilidad detectado
+mantenimiento y tiene problemas de compatibilidad con las versiones más avanzadas del intérprete de Python. No obstante, si quieres experimentar con DroneKit aquí puedes ver una solución al problema de compatibilidad detectado.
 
 <img src="https://github.com/dronsEETAC/Taller-de-Drones-TelecoRenta/assets/100842082/841e7a62-ef19-4841-be70-e6079cf7e9c4" width="400" height="200">
 
