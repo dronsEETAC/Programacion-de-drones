@@ -1,5 +1,6 @@
 # Guía del profesor
 ## 1. Presentación   
+Este apartado está destinado a profesorado que quiera utilizar el material de este taller en su propia docencia. Aquí pueden encontrarse aclaraciones sobre puntos clave del taller, recomendaciones de cómo diseñar actividades para la propia asignatura y materiales adicionales para abordar retos cada vez más ambiciosos, como por ejemplo, aumentar las capacidades de la librería propuesta para controlar el dron, montar y configurar un dron real que pueda ser controlado por la aplicación desarrollada, o incorporar a la aplicación funcionalidades para el reconocimiento de objetos mediante redes neuronales.    
 
 ## 2. Observaciones sobre el taller  
 
