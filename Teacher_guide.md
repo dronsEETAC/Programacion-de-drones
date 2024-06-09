@@ -141,7 +141,7 @@ La aplicación que se desarrolla en este taller controla un dron simulado. Esto 
 
 El dron recomendado es el que se muestra en las imágenes. Partiendo del kit que contiene todos los componentes, el dron puede montarse, configurarse y prepararse para el vuelo en unas 6 horas (dependiendo en parte de la habilidad manual de los implicados). Ese proceso es altamente formativo porque se toca temas relacionados con la electrónica, la mecánica, la física, la aerodinámica, etc.    
 
-<img src="https://github.com/dronsEETAC/Taller-de-Drones-TelecoRenta/assets/100842082/abbcd66b-1b0a-45e3-91c6-09b227d9f2f4" width="250" alt="">
+<img src="https://github.com/dronsEETAC/Taller-de-Drones-TelecoRenta/assets/100842082/abbcd66b-1b0a-45e3-91c6-09b227d9f2f4" width="500" alt="">
 
 Aquí puede encontrarse una guía que indica cómo adquirir el kit (cuyo precio es de aproximadament 1500 euros) y describe paso a paso el proceso de montaje, configuración y preparación para el vuelo (y naturalmente también explica qué hay que cambiar en la aplicación para que actúe sobre el dron real).     
       
