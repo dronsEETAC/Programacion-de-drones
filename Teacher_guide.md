@@ -137,9 +137,16 @@ El código que se desarrolla a lo largo de ese tutorial puede encontrarse aqui:
 [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/telecoRenta-codigo_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
 
 ## 8. El dron   
-    
+La aplicación que se desarrolla en este taller controla un dron simulado. Esto permite tener en un portátil todas las herramientas necesarias para desarrollar la actividad (incluido el simulador SITL). Como es natural, un paso más es hacer que la aplicación controle un dron real, para lo cual, en general, bastará modificar un par de líneas de código, precisamente las que especifican si la aplicación debe conectarse al simulador o al dron real.    
+
+El dron recomendado es el que se muestra en las imágenes. Partiendo del kit que contiene todos los componentes, el dron puede montarse, configurarse y prepararse para el vuelo en unas 6 horas (dependiendo en parte de la habilidad manual de los implicados). Ese proceso es altamente formativo porque se toca temas relacionados con la electrónica, la mecánica, la física, la aerodinámica, etc.    
+
+Aquí puede encontrarse una guía que indica cómo adquirir el kit (cuyo precio es de aproximadament 1500 euros) y describe paso a paso el proceso de montaje, configuración y preparación para el vuelo (y naturalmente también explica qué hay que cambiar en la aplicación para que actúe sobre el dron real).     
+      
+Es importante tener presente que el dron resultante no puede volarse en cualquier sitio. La normativa actual impone importantes restricciones al respecto. Por este motivo, recomendamos que antes de emprender la aventura de adquirir el kit, montar y configurar el dron se haga una valoración de las posibilidades existentes para volar el dron. Para ello, el contenido del último apartado de la guía (Dónde volar) puede ser de ayuda.
+
 ## 9. Raspberry Pi
-En uno de los videos mencionados en el apartado X se sugiere un escenario interesante en el que el autopilotService se ejecuta en una Raspberry Pi, que naturalmente tiene que estar conectada a internet para recibir las notificaciones del bróker cuando nuestra aplicación solicite algún servicio.    
+En uno de los videos mencionados en el apartado 6 se sugiere un escenario interesante en el que el autopilotService se ejecuta en una Raspberry Pi, que naturalmente tiene que estar conectada a internet para recibir las notificaciones del bróker cuando nuestra aplicación solicite algún servicio.    
     
 En una situación real, la Raspberry Pi estaría instalada en el dron y conectada al autopiloto sobre el que operaría directamente para realizar la operación solicitada desde la aplicación.     
     
