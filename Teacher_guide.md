@@ -93,7 +93,7 @@ Este es un tutorial básico sobre cómo crear una red neuronal e integrarla en u
 <a href="https://www.youtube.com/playlist?list=PLyAtSQhMsD4qWd33j4rxHd13iO_GUXK4N">
     <img src="https://img.youtube.com/vi/WwxhAen-rvc/0.jpg" width="250" alt="">
 </a>
-
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D/WwxhAen-rvc)](https://www.youtube.com/watch?v=/WwxhAen-rvc)
 
 Este es el repositorio con el código que se usa en el video: [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/TelecoRenta-codigo_tutorial_redes_neuronales-blue.svg)](https://github.com/dronsEETAC/TutorialRedesNeuronales.git)
 
@@ -114,6 +114,7 @@ En estos vídeos puede encontrarse una explicación de todos estos conceptos, qu
     <img src="https://img.youtube.com/vi/cWMWHKHL0zc/0.jpg" width="250" alt="">
   </a>
 
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcWMWHKHL0zc)](https://www.youtube.com/watch?v=cWMWHKHL0zc)     
 
 Y aquí puede encontrarse una explicación sencilla de como usar un bróker MQTT en Python.       
    
@@ -133,7 +134,9 @@ El mundo de las web apps no es fácil, pero es altamente motivador. Nos aleja de
   <a href="https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B">
     <img src="https://img.youtube.com/vi/XCn9stPZ4iY/0.jpg" width="250" alt="">
   </a>
-       
+
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcWMWHKHL0zc)](https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B)     
+
 El código que se desarrolla a lo largo de ese tutorial puede encontrarse aqui:      
 [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/telecoRenta-codigo_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
 
