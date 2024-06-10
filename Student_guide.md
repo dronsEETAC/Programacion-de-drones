@@ -158,17 +158,7 @@ Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador S
 [![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
 
 
-
 [![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
-
- 
-  <a href="https://www.youtube.com/watch?v=UPyklN9namM">
-    <img src="https://img.youtube.com/vi/UPyklN9namM/0.jpg" width="150" alt="">
-  </a>
-
-   <a href="https://www.youtube.com/watch?v=P_NCKA_3-PQ">
-    <img src="https://img.youtube.com/vi/P_NCKA_3-PQ/0.jpg" width="150" alt="">
-  </a>
 
 
 ## 7. La librería DronLib
@@ -348,11 +338,8 @@ aplicación en funcionamiento**. Fíjate que para ejecutar el código tendrás q
 **_pymavlink_**.
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRza4vbXaFp0)](https://www.youtube.com/watch?v=Rza4vbXaFp0)
 
-  <a href="https://www.youtube.com/watch?v=Rza4vbXaFp0">
-    <img src="https://img.youtube.com/vi/Rza4vbXaFp0/0.jpg" width="150" alt="">
-  </a>
 
 ### Retos
 
@@ -411,13 +398,8 @@ aplicación en funcionamiento. Fíjate que para ejecutar el código tendrás que
 [**tkintermapview**](#installs).
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbQNr8IJ5veA)](https://www.youtube.com/watch?v=bQNr8IJ5veA)
 
-
-
-  <a href="https://www.youtube.com/watch?v=bQNr8IJ5veA">
-    <img src="https://img.youtube.com/vi/bQNr8IJ5veA/0.jpg" width="150" alt="">
-  </a>
 
 ### Retos
 
@@ -486,12 +468,8 @@ necesarias para determinar qué pose hay en la imagen. Al recoger el resultado, 
 _BodyFrame_ da la orden correspondiente al dron.
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2kP3vmNhnFM)](https://www.youtube.com/watch?v=2kP3vmNhnFM)
 
-
-  <a href="https://www.youtube.com/watch?v=2kP3vmNhnFM">
-    <img src="https://img.youtube.com/vi/2kP3vmNhnFM/0.jpg" width="150" alt="">
-  </a>
 
 
 ### Reto
