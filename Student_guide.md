@@ -8,7 +8,9 @@ usuario un **mapa** en el que mostrará la posición del dron en todo momento y 
 **guiar el dron con las poses de tu cuerpo**, utilizando técnicas de reconocimiento de imagen.     
       
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c" width="400" height="200">
-       
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP_NCKA_3-PQ)](https://www.youtube.com/watch?v=P_NCKA_3-PQ)
+
 En este repositorio encontrarás:     
       
 1. Los **códigos** de referencia para la realización del taller.
