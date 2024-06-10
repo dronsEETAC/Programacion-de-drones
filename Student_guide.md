@@ -132,7 +132,7 @@ de una rama a otra** o de una versión a otra. En la descripción de los vídeos
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBST5Dj4PqZ4)](https://www.youtube.com/watch?v=BST5Dj4PqZ4)
 
 
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgvXLxkuPaog)](https://www.youtube.com/watch?v=gvXLxkuPaog)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgvXLxkuPaog)](https://www.youtube.com/watch?v=gvXLxkuPaog/1.jpg)
 
 
 
