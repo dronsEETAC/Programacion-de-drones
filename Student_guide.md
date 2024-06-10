@@ -39,8 +39,6 @@ UPC, en Castelldefels**.
      
 Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
-
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
 
 ## 2. Etapas del taller
@@ -131,10 +129,10 @@ En los dos vídeos siguientes puedes ver cómo **clonar el repositorio**, **move
 versiones**, **crear las ramas** necesarias para tus propios desarrollos y **moverte por el repositorio
 de una rama a otra** o de una versión a otra. En la descripción de los vídeos encontrarás un resumen de los **comandos de git** que se han usado en ambos vídeos.
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBST5Dj4PqZ4)](https://www.youtube.com/watch?v=BST5Dj4PqZ4)
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgvXLxkuPaog)](https://www.youtube.com/watch?v=gvXLxkuPaog)
 
 
 
