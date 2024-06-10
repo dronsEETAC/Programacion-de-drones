@@ -90,10 +90,6 @@ Aprender cómo funcionan las redes neuronales para reconocer objetos e incorpora
       
 Este es un tutorial básico sobre cómo crear una red neuronal e integrarla en una aplicación en Python.   
 
-<a href="https://www.youtube.com/playlist?list=PLyAtSQhMsD4qWd33j4rxHd13iO_GUXK4N">
-    <img src="https://img.youtube.com/vi/WwxhAen-rvc/0.jpg" width="250" alt="">
-</a>
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D/WwxhAen-rvc)](https://www.youtube.com/watch?v=/WwxhAen-rvc)
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWwxhAen-rvc)](https://www.youtube.com/playlist?list=PLyAtSQhMsD4qWd33j4rxHd13iO_GUXK4N)    
 
@@ -112,9 +108,7 @@ También es el adecuado cuando queremos que sean varios usuarios los que puedan 
 Entre los diferentes modelos de comunicación a través de internet que pueden usarse, uno especialmente adecuado para este contexto es la comunicación a través de un bróker que implementa el protocolo MQTT. De acuerdo con este modelo, los dispositivos/procesos que quieren comunicarse (en este caso la aplicación y el autopilotService) lo hacen mediante un mecanismo de subscripción/publicación. Todos los implicados se conectan al bróker y cuando uno de ellos hace una publicación sobre un tema determinado (por ejemplo, un comando para el autopilotService) todos los subscritos a ese tema reciben del bróker una notificación. El protocolo MQTT es uno de los más usados en el mundo del internet de las cosas (IoT) porque es muy intuitivo y ligero.    
       
 En estos vídeos puede encontrarse una explicación de todos estos conceptos, que se ilustran con un ejemplo.   
-  <a href="https://www.youtube.com/playlist?list=PLyAtSQhMsD4padff51h_2iO-8Mcwin_Y5">
-    <img src="https://img.youtube.com/vi/cWMWHKHL0zc/0.jpg" width="250" alt="">
-  </a>
+
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcWMWHKHL0zc)](https://www.youtube.com/playlist?list=PLyAtSQhMsD4padff51h_2iO-8Mcwin_Y5)     
 
