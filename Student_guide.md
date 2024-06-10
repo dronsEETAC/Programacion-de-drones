@@ -136,17 +136,6 @@ de una rama a otra** o de una versión a otra. En la descripción de los vídeos
 
 
 
-
-  <a href="https://www.youtube.com/watch?v=BST5Dj4PqZ4">
-    <img src="https://img.youtube.com/vi/BST5Dj4PqZ4/0.jpg" width="150" alt="">
-  </a>
-  <a href="https://www.youtube.com/watch?v=gvXLxkuPaog">
-    <img src="https://img.youtube.com/vi/gvXLxkuPaog/1.jpg" width="150" alt="">
-  </a>
-
-
-
-
 ## 6. Para empezar a programar
 
 Una vez instalado **Git, Mission Planner, el intérprete de **Python** y Pycharm**, mira estos videos e
@@ -155,11 +144,9 @@ intenta reproducir en tu ordenador lo que ves en ellos.
 Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador SITL**. También muestran cómo hacer un programa sencillo que **envía comandos al simulador del dron**, usando la librería _**DronLib**_, que está incluida en el repositorio de este taller.
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUPyklN9namM)](https://www.youtube.com/watch?v=UPyklN9namM)
 
-
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
-
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP_NCKA_3-PQ)](https://www.youtube.com/watch?v=P_NCKA_3-PQ)
 
 ## 7. La librería DronLib
 
@@ -338,7 +325,7 @@ aplicación en funcionamiento**. Fíjate que para ejecutar el código tendrás q
 **_pymavlink_**.
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRza4vbXaFp0)](https://www.youtube.com/watch?v=Rza4vbXaFp0)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRza4vbXaFp0)](https://www.youtube.com/watch?v=Rza4vbXaFp0)
 
 
 ### Retos
@@ -398,7 +385,7 @@ aplicación en funcionamiento. Fíjate que para ejecutar el código tendrás que
 [**tkintermapview**](#installs).
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbQNr8IJ5veA)](https://www.youtube.com/watch?v=bQNr8IJ5veA)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbQNr8IJ5veA)](https://www.youtube.com/watch?v=bQNr8IJ5veA)
 
 
 ### Retos
@@ -468,7 +455,7 @@ necesarias para determinar qué pose hay en la imagen. Al recoger el resultado, 
 _BodyFrame_ da la orden correspondiente al dron.
 
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2kP3vmNhnFM)](https://www.youtube.com/watch?v=2kP3vmNhnFM)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2kP3vmNhnFM)](https://www.youtube.com/watch?v=2kP3vmNhnFM)
 
 
 
