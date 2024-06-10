@@ -135,7 +135,7 @@ El mundo de las web apps no es fácil, pero es altamente motivador. Nos aleja de
     <img src="https://img.youtube.com/vi/XCn9stPZ4iY/0.jpg" width="250" alt="">
   </a>
 
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcWMWHKHL0zc)](https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B)     
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXCn9stPZ4iY)](https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B)     
 
 El código que se desarrolla a lo largo de ese tutorial puede encontrarse aqui:      
 [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/telecoRenta-codigo_tutorial_vue_-blue.svg)](https://github.com/dronsEETAC/TutorialVue.git)
