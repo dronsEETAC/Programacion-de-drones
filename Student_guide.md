@@ -9,7 +9,6 @@ usuario un **mapa** en el que mostrará la posición del dron en todo momento y 
       
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/600f03c9-1c70-4ec0-a52f-87f934c3862c" width="400" height="200">
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP_NCKA_3-PQ)](https://www.youtube.com/watch?v=P_NCKA_3-PQ)
 
 En este repositorio encontrarás:     
       
@@ -42,7 +41,12 @@ Mira este vídeo para ver una demo de la aplicación que se desarrolla en este t
   <a href="https://www.youtube.com/watch?v=ryezfzIUBrE">
     <img src="https://img.youtube.com/vi/ryezfzIUBrE/0.jpg" width="250" alt="">
   </a>
+
+    <a href="https://www.youtube.com/watch?v=ryezfzIUBrE">
+    <img src="https://img.youtube.com/vi/ryezfzIUBrE/0.jpg" width="250" alt="">
+  </a>
       
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3ryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
 
 
 ## 2. Etapas del taller
