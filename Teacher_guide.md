@@ -95,6 +95,8 @@ Este es un tutorial básico sobre cómo crear una red neuronal e integrarla en u
 </a>
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D/WwxhAen-rvc)](https://www.youtube.com/watch?v=/WwxhAen-rvc)
 
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWwxhAen-rvc)](https://www.youtube.com/playlist?list=PLyAtSQhMsD4qWd33j4rxHd13iO_GUXK4N)    
+
 Este es el repositorio con el código que se usa en el video: [![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/TelecoRenta-codigo_tutorial_redes_neuronales-blue.svg)](https://github.com/dronsEETAC/TutorialRedesNeuronales.git)
 
 
@@ -114,7 +116,7 @@ En estos vídeos puede encontrarse una explicación de todos estos conceptos, qu
     <img src="https://img.youtube.com/vi/cWMWHKHL0zc/0.jpg" width="250" alt="">
   </a>
 
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcWMWHKHL0zc)](https://www.youtube.com/watch?v=cWMWHKHL0zc)     
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcWMWHKHL0zc)](https://www.youtube.com/playlist?list=PLyAtSQhMsD4padff51h_2iO-8Mcwin_Y5)     
 
 Y aquí puede encontrarse una explicación sencilla de como usar un bróker MQTT en Python.       
    
@@ -130,10 +132,6 @@ Una web app no es más que un servidor web que se está ejecutando en algún ser
 La web app solo puede trabajar en modo de comunicación global (ver el apartado anterior), de manera que al pulsar un botón la web app hace una publicación en el bróker para que éste notifique la petición al autopilotService, que ejecutará la operación correspondiente con el dron.     
        
 El mundo de las web apps no es fácil, pero es altamente motivador. Nos aleja de la programación en Python porque ahora hay que programar en JavaScript, TypeScript, HTML, CSS, etc. Aquí puede accederse a un tutorial que puede ayudar a introducirse en el tema, y que incluye aspectos tales como comunicaciones a través de un bróker MQTT.
-
-  <a href="https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B">
-    <img src="https://img.youtube.com/vi/XCn9stPZ4iY/0.jpg" width="250" alt="">
-  </a>
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXCn9stPZ4iY)](https://www.youtube.com/playlist?list=PL64O0POFYjHoeq8dfP-XYPCoNlehSiR_B)     
 
