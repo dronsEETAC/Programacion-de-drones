@@ -34,26 +34,14 @@ cual tendrás que modificar solo un par de líneas de tu código). Naturalmente,
 taller se realiza de forma presencial en las instalaciones **del campus del Baix Llobregat de la
 UPC, en Castelldefels**.     
 
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP_NCKA_3-PQ)](https://www.youtube.com/watch?v=P_NCKA_3-PQ)
-
-
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
-
       
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075" width="700" height="200">
      
 Mira este vídeo para ver una demo de la aplicación que se desarrolla en este taller.
-      
-  <a href="https://www.youtube.com/watch?v=ryezfzIUBrE">
-    <img src="https://img.youtube.com/vi/ryezfzIUBrE/0.jpg" width="250" alt="">
-  </a>
 
-    <a href="https://www.youtube.com/watch?v=ryezfzIUBrE">
-    <img src="https://img.youtube.com/vi/ryezfzIUBrE/0.jpg" width="250" alt="">
-  </a>
-      
-[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3ryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
 
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
 
 ## 2. Etapas del taller
 
@@ -143,6 +131,14 @@ En los dos vídeos siguientes puedes ver cómo **clonar el repositorio**, **move
 versiones**, **crear las ramas** necesarias para tus propios desarrollos y **moverte por el repositorio
 de una rama a otra** o de una versión a otra. En la descripción de los vídeos encontrarás un resumen de los **comandos de git** que se han usado en ambos vídeos.
 
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+
+
+
+
   <a href="https://www.youtube.com/watch?v=BST5Dj4PqZ4">
     <img src="https://img.youtube.com/vi/BST5Dj4PqZ4/0.jpg" width="150" alt="">
   </a>
@@ -156,8 +152,17 @@ de una rama a otra** o de una versión a otra. En la descripción de los vídeos
 ## 6. Para empezar a programar
 
 Una vez instalado **Git, Mission Planner, el intérprete de **Python** y Pycharm**, mira estos videos e
-intenta reproducir en tu ordenador lo que ves en ellos.
+intenta reproducir en tu ordenador lo que ves en ellos.       
+          
 Los vídeos te muestran cómo **poner en marcha Mission Planner y el simulador SITL**. También muestran cómo hacer un programa sencillo que **envía comandos al simulador del dron**, usando la librería _**DronLib**_, que está incluida en el repositorio de este taller.
+
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+
+
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+
  
   <a href="https://www.youtube.com/watch?v=UPyklN9namM">
     <img src="https://img.youtube.com/vi/UPyklN9namM/0.jpg" width="150" alt="">
@@ -344,6 +349,9 @@ Este vídeo contiene una **explicación del código de esta versión** y una **d
 aplicación en funcionamiento**. Fíjate que para ejecutar el código tendrás que instalar la librería
 **_pymavlink_**.
 
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+
   <a href="https://www.youtube.com/watch?v=Rza4vbXaFp0">
     <img src="https://img.youtube.com/vi/Rza4vbXaFp0/0.jpg" width="150" alt="">
   </a>
@@ -403,6 +411,10 @@ Config -> _Full parameter list_).
 Este vídeo contiene una explicación del código de esta versión y una demostración de la
 aplicación en funcionamiento. Fíjate que para ejecutar el código tendrás que instalar la librería
 [**tkintermapview**](#installs).
+
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
+
 
 
   <a href="https://www.youtube.com/watch?v=bQNr8IJ5veA">
@@ -474,6 +486,9 @@ los botones para poner en marcha la funcionalidad. En esa clase, una vez se obti
 imagen de la cámara se envía a la clase _PoseDetector_ en la que se hacen las comprobaciones
 necesarias para determinar qué pose hay en la imagen. Al recoger el resultado, la clase
 _BodyFrame_ da la orden correspondiente al dron.
+
+
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D?????)](https://www.youtube.com/watch?v=???????)
 
 
   <a href="https://www.youtube.com/watch?v=2kP3vmNhnFM">
