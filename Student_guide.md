@@ -37,6 +37,8 @@ UPC, en Castelldefels**.
 [![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DP_NCKA_3-PQ)](https://www.youtube.com/watch?v=P_NCKA_3-PQ)
 
 
+[![MissionPlanner, SITL y Librerías (Parte 1)](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DryezfzIUBrE)](https://www.youtube.com/watch?v=ryezfzIUBrE)
+
       
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/60132ceb-70f2-4bd3-97b3-0b305ae12075" width="700" height="200">
      
