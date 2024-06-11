@@ -5,6 +5,47 @@ Este apartado está destinado a profesorado que quiera utilizar el material de e
 ## 2. Observaciones sobre el taller  
 
 ## 3. ¿Cómo usar el material del taller en una asignatura?
+En este apartado se hacen sugerencias sobre cómo diseñar una actividad para una asignatura usando el material de este taller. Se proponen dos casos: una asignatura semipresencial y una on-line.
+### Asignatura semipresencial   
+Asumiremos que la asignatura tiene sesiones de clase de 2 horas y que los alumnos deben dedicar 2 horas de trabajo personal entre sesiones de clase. La actividad que se propone se extiende a lo largo de 3 sesiones, pero puede amplicarse fácilmente. A continuación se describe el contenido de cada sesión y el trabajo que deben realizar los alumnos entre sesiones.   
+
+Sesión 1
+Se presenta la actividad y se hace una demostración como la que se muestra en el vídeo del apartado 1 de la guía del estudiante. También se hacen las demostraciones y explicaciones contenidas en el apartado 6 de la guía. Se explica brevemente cómo está organizado el repositorio con el código (apartado 4). Finalmente se muestra algún ejemplo de cómo usar la librería DronLib, como los que hay en el apartado 7.
+
+Trabajo fuera del aula
+Los alumnos instalan las herramientas (sección 3 del repositorio), instalan el repositorio y estudian el contenido del apartado 5.
+Sesión 2 
+Se forman grupos de 4 alumnos que comparten las dificultades que hayan podido tener en el trabajo fuera del aula. El docente realiza las aclaraciones necesarias y resuelve las dudas que se haya producido.
+Los alumnos realizan la ETAPA 1 con sus retos. La tarea es individual aun que con el apoyo en primera instancia de los compañeros de grupo y en segunda instancia del docente.
+Al final de la sesión los grupos se dividirán en dos subgrupos: El subgrupo mapa (que se enfrentará a la etapa 2.A con sus retos) y el subgrupo pose (que se enfrentará a la etapa 2.B con sus retos).
+Trabajo fuera del aula
+Cada alumno desarrolla individualmente la etapa que le corresponde, posiblemente apoyándose en su compañero de subgrupo que trabaja la misma etapa.
+Sesión 3
+Los grupos se reunen. Primero los miembros de cada subgrupo ponen en común el trabajo y después explican a los compañeros del otros subgrupo en qué ha consistido su etapa. El docente realiza las aclaraciones necesarias y resuelve las dudas que se haya producido.
+Los grupos realizan la ETAPA 3 en la que se integran los desarrollos realizados hasta el momento.
+
+
+Sesión 3
+Sesión 3	Trabajo fuera del aula
+1.- Reunión de grupo puesta en común de las etapas 2.A (subgrupo mapa) y 2.B (subgrupo pose). 
+2.- Realización de la ETAPA 3.
+3.- Elegir los retos para las siguientes sesiones de los que se proponen al final del taller. 
+
+	1.- Los alumnos están abordando los retos que han elegido.  
+Durante esta sesión los grupos ponen en común el trabajo realizado en casa. Después cada grupo de 4 tienen que integrar en una única aplicación los desarrollos de las etapas 2.A (subgrupo mapa) y 2.B (subgrupo pose). Al final de la sesión los alumnos deben elegir un reto de los que se proponen al final del taller.
+Sesión 4
+Trabajo fuera del aula
+Demo y evaluación cruzada 
+
+	
+
+
+En esta última sesión los grupos realizan una demo al profesor y luego una evaluación cruzada, de esta manera sus compañeros pueden ver el trabajo realizado por otros grupos. 
+
+
+
+
+
 
 ## 4. Ampliación de la librería dronLib
 La librería que se ha usado en el taller (DronLib) está en desarrollo. En la versión disponible en el repositorio del taller tiene un mínimo conjunto de métodos, suficientes para los objetivos del taller. Pero naturalmente es posible ampliar en gran medida las funcionalidades de la librería. Este puede ser un proyecto interesante: organizar a los alumnos del curso en equipos y encargar a cada equipo que desarrolle algunas funcionalidades adicionales a la librería.    
