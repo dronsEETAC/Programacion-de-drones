@@ -17,8 +17,7 @@ Asumiremos que la asignatura tiene sesiones de clase de 2 horas y que los alumno
 |  _Trabajo fuera del aula_ | 
 | Los alumnos instalan las herramientas (sección 3 del repositorio), instalan el repositorio y estudian el contenido del apartado 5.  |    
 | _Sesión 2_    | 
-| Se forman grupos de 4 alumnos que comparten las dificultades que hayan podido tener en el trabajo fuera del aula. El docente realiza las aclaraciones necesarias y resuelve las dudas que se haya producido.    
-Los alumnos realizan la ETAPA 1 con sus retos. La tarea es individual aun que con el apoyo en primera instancia de los compañeros de grupo y en segunda instancia del docente. Al final de la sesión los grupos se dividirán en dos subgrupos: El subgrupo mapa (que se enfrentará a la etapa 2.A con sus retos) y el subgrupo pose (que se enfrentará a la etapa 2.B con sus retos). | 
+| Se forman grupos de 4 alumnos que comparten las dificultades que hayan podido tener en el trabajo fuera del aula. El docente realiza las aclaraciones necesarias y resuelve las dudas que se haya producido. Los alumnos realizan la ETAPA 1 con sus retos. La tarea es individual aun que con el apoyo en primera instancia de los compañeros de grupo y en segunda instancia del docente. Al final de la sesión los grupos se dividirán en dos subgrupos: el subgrupo mapa (que se enfrentará a la etapa 2.A con sus retos) y el subgrupo pose (que se enfrentará a la etapa 2.B con sus retos). | 
 |  _Trabajo fuera del aula_| 
 |Cada alumno desarrolla individualmente la etapa que le corresponde, posiblemente apoyándose en su compañero de subgrupo que trabaja la misma etapa.   |  
 | _Sesión 3_    | 
