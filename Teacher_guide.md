@@ -6,8 +6,9 @@ Este apartado está destinado a profesorado que quiera utilizar el material de e
 
 ## 3. ¿Cómo usar el material del taller en una asignatura?       
 En este apartado se hacen sugerencias sobre cómo diseñar una actividad para una asignatura usando el material de este taller. Se proponen dos casos: una asignatura semipresencial y una on-line.      
+
 ### Asignatura semipresencial    
-Asumiremos que la asignatura tiene sesiones de clase de 2 horas y que los alumnos deben dedicar 2 horas de trabajo personal entre sesiones de clase. La actividad que se propone se extiende a lo largo de 3 sesiones, pero puede amplicarse fácilmente. A continuación se describe el contenido de cada sesión y el trabajo que deben realizar los alumnos entre sesiones.   
+Asumiremos que la asignatura tiene sesiones de clase de 2 horas y que los alumnos deben dedicar 2 horas de trabajo personal entre sesiones de clase. La actividad que se propone se extiende a lo largo de 3 sesiones, pero puede amplicarse fácilmente, en función de la ambición del los grupos al plantearse nuevos retos. A continuación se describe el contenido de cada sesión y el trabajo que deben realizar los alumnos entre sesiones.   
 
 _Sesión 1_      
 Se presenta la actividad y se hace una demostración como la que se muestra en el vídeo del apartado 1 de la guía del estudiante. También se hacen las demostraciones y explicaciones contenidas en el apartado 6 de la guía. Se explica brevemente cómo está organizado el repositorio con el código (apartado 4). Finalmente se muestra algún ejemplo de cómo usar la librería DronLib, como los que hay en el apartado 7.
@@ -35,7 +36,9 @@ _Trabajo fuera del aula_
 Los alumnos trabajan en sus retos de acuerdo con el plan establecido.      
 
 _Sesión 4_    
-En esta última sesión los grupos realizan una demo al docente y luego una evaluación cruzada, de esta manera sus compañeros pueden ver el trabajo realizado por otros grupos. 
+En esta última sesión los grupos realizan una demo al docente y luego una evaluación cruzada, de esta manera sus compañeros pueden ver el trabajo realizado por otros grupos.    
+
+En el caso de que los retos que se planteen los grupos sean ambiciosos puede ser conveniente alargar el proceso intertando alguna sesión adicional antes de la sesión final, para supervisar el trabajo y resolver las dudas que se estén produciendo.
 
 ## 4. Ampliación de la librería dronLib
 La librería que se ha usado en el taller (DronLib) está en desarrollo. En la versión disponible en el repositorio del taller tiene un mínimo conjunto de métodos, suficientes para los objetivos del taller. Pero naturalmente es posible ampliar en gran medida las funcionalidades de la librería. Este puede ser un proyecto interesante: organizar a los alumnos del curso en equipos y encargar a cada equipo que desarrolle algunas funcionalidades adicionales a la librería.    
