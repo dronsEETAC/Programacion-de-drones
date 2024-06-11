@@ -10,6 +10,15 @@ En este apartado se hacen sugerencias sobre cómo diseñar una actividad para un
 ### Asignatura semipresencial    
 Asumiremos que la asignatura tiene sesiones de clase de 2 horas y que los alumnos deben dedicar 2 horas de trabajo personal entre sesiones de clase. La actividad que se propone se extiende a lo largo de 3 sesiones, pero puede amplicarse fácilmente, en función de la ambición del los grupos al plantearse nuevos retos. A continuación se describe el contenido de cada sesión y el trabajo que deben realizar los alumnos entre sesiones.   
 
+| Plan  | 
+| ------------- | 
+| _Sesión 1_    | 
+| Se presenta la actividad y se hace una demostración como la que se muestra en el vídeo del apartado 1 de la guía del estudiante. También se hacen las demostraciones y explicaciones contenidas en el apartado 6 de la guía. Se explica brevemente cómo está organizado el repositorio con el código (apartado 4). Finalmente se muestra algún ejemplo de cómo usar la librería DronLib, como los que hay en el apartado 7. | 
+|  _Trabajo fuera del aula_   | 
+| Los alumnos instalan las herramientas (sección 3 del repositorio), instalan el repositorio y estudian el contenido del apartado 5.  |    
+
+
+
 _Sesión 1_      
 Se presenta la actividad y se hace una demostración como la que se muestra en el vídeo del apartado 1 de la guía del estudiante. También se hacen las demostraciones y explicaciones contenidas en el apartado 6 de la guía. Se explica brevemente cómo está organizado el repositorio con el código (apartado 4). Finalmente se muestra algún ejemplo de cómo usar la librería DronLib, como los que hay en el apartado 7.
 
