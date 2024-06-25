@@ -162,7 +162,7 @@ El dron recomendado es el que se muestra en las imágenes. Partiendo del kit que
 
 <img src="https://github.com/dronsEETAC/Taller-de-Drones-TelecoRenta/assets/100842082/abbcd66b-1b0a-45e3-91c6-09b227d9f2f4" width="500" alt="">
 
-Aquí puede encontrarse una [guía](materiales_profesorado/guia_montaje.pdf),que indica cómo adquirir el kit (cuyo precio es de aproximadament 1500 euros) y describe paso a paso el proceso de montaje, configuración y preparación para el vuelo (y naturalmente también explica qué hay que cambiar en la aplicación para que actúe sobre el dron real).     
+Aquí puede encontrarse una [guía](materiales_profesorado/Guía_montaje.pdf),que indica cómo adquirir el kit (cuyo precio es de aproximadament 1500 euros) y describe paso a paso el proceso de montaje, configuración y preparación para el vuelo (y naturalmente también explica qué hay que cambiar en la aplicación para que actúe sobre el dron real).     
       
 Es importante tener presente que el dron resultante no puede volarse en cualquier sitio. La normativa actual impone importantes restricciones al respecto. Por este motivo, recomendamos que antes de emprender la aventura de adquirir el kit, montar y configurar el dron se haga una valoración de las posibilidades existentes para volar el dron. Para ello, el contenido del último apartado de la guía (Dónde volar) puede ser de ayuda.
 
