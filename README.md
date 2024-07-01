@@ -1,16 +1,15 @@
-# Taller-de-Drones
-Workshop title: _**Taller de Drones**_     
+# Programación de drones 
     
-In this workshop students will learn how to develop Python programs to control the operation of a drone. They will learn to create a program with a graphical interface that uses buttons to order the drone to take off or fly in a certain direction. The program will present the user with a map showing the position of the drone and allowing the drone to be guided with the poses of the body, using image recognition techniques.       
+En este taller los estudiantes aprenderán a desarrollar programas Python para controlar el funcionamiento de un dron. Aprenderán a crear un programa con una interfaz gráfica que utiliza botones para ordenar al dron que despegue o vuele en una dirección determinada. El programa presentará al usuario un mapa que muestra la posición del dron y permitirá guiarlo con las posturas del cuerpo, utilizando técnicas de reconocimiento de imágenes.       
    
-This repository provides a [student guide](Student_guide.md) with the required reference codes together with written and video materials to guide students during the process.    
+Este repositorio proporciona una [guía para estudiantes](guia_estudiante.md) con los códigos de referencia requeridos junto con materiales escritos y en video para guiar a los estudiantes durante el proceso.    
     
-The repository also contains a [teacher guide](Teacher_guide.md) with recommendation on how to use the workshop material in class but also with additional materials to go much further and propose ambitious projects on topics such as image recognition using neural networks or web app development.     
+El repositorio también contiene una [guía del profesor](guia_profesor.md) con recomendaciones sobre cómo utilizar el material del taller en clase pero también con materiales adicionales para ir mucho más allá y proponer proyectos ambiciosos sobre temas como el reconocimiento de imágenes mediante redes neuronales o aplicación web. desarrollo.     
 
-## About    
-This workshop has been created by Mariona Anglès, Pablo Royo and Miguel Valero, members of the research group ICARUS at EETAC – UPC, in the frame of the TelecoRenta Proyect from the UNICO 5G Program.   
+## Acerca de    
+Este taller ha sido creado por Mariona Anglès, Pablo Royo y Miguel Valero, miembros del grupo de investigación ICARUS de la EETAC – UPC
       
-## Contact     
-If you have any questions, feedback, or inquiries about the content on this repository, please feel free to contact pablo.royo@upc.edu
+## Contacto
+Para cualquier pregunta u observación contactar con pablo.royo@upc.edu
 
 
