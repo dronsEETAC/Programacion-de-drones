@@ -1,4 +1,4 @@
-# Taller de Drones
+# Programación de drones
 
 ## **1. Presentación**
 En este taller vas a aprender a desarrollar programas en Python para **controlar la operación de
