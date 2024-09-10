@@ -478,7 +478,7 @@ ojo izquierdo?**).
 
 <img src="https://github.com/dronsEETAC/tallerTelecoRenta/assets/100842082/f73f9463-336e-4258-bb2d-431084ce1d10" width="400" height="200">
 
-## Etapa 3: Versión integrada
+## 11. Etapa 3: Versión integrada
 Puedes encontrar en el tag “**v3**” la versión final que integra todos los retos propuestos en las etapas anteriores. 
      
 ### Reto
