@@ -516,14 +516,15 @@ El proxy no es más que un servidor que se conecta por un lado al dron, a travé
  
 MAVProxy es una herramienta gratuita que nos permite hacer exactamente eso: poner en marcha el proxy que necesitamos. Toda la información sobre esta herramienta pueden encontrarse aquí:     
   
-<img width="284" height="123" alt="image" src="https://github.com/user-attachments/assets/402a6dd0-8c98-48ac-87c8-03aa6a04269e" />     
+<img width="284" height="123" alt="image" src="https://github.com/user-attachments/assets/402a6dd0-8c98-48ac-87c8-03aa6a04269e" />   
+   
 [MAVProxy — MAVProxy documentation (ardupilot.org)](https://ardupilot.org/mavproxy/)
 
 La puesta en marcha es muy sencilla. Hay que instalar el software en el portátil siguiendo las instrucciones del apartado Download and Installation. Después, debe abrirse un terminal de PowerShell y escribir el siguiente comando:     
 ```
-mavproxy --master=com12 --out=udp:127.0.0.1:14550 --out= udp:127.0.0.1:14551
+mavproxy --master=com12 --out=udp:127.0.0.1:14550 --out=udp:127.0.0.1:14551
 ```
-Ahora ya tenemos en marcha el proxy y podemos conectar Mission Planner a uno de los puertos UDP y nuestro programa al otro para interactuar simultáneamente con el dron a través de la radio de telemetría. El video siguiente muestra cómo se hace este proceso.    
+Ahora ya tenemos en marcha el proxy y podemos conectar Mission Planner a uno de los puertos UDP y nuestro programa al otro (con el connextion string correspondiente al puerto UDP) para interactuar simultáneamente con el dron a través de la radio de telemetría. El video siguiente muestra cómo se hace este proceso.    
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-wshxqRHUCY)](https://www.youtube.com/watch?v=-wshxqRHUCY)
 
