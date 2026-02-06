@@ -529,14 +529,14 @@ Ahora ya tenemos en marcha el proxy y podemos conectar Mission Planner a uno de 
 
 El vídeo muestra como:      
 
-1 Se pone en marcha Mission Planner
-2 Se conecta al dron a través del puerto COM12 en el que está conectada la radio de telemetría
-3 Intentamos conectar también el programa, ajustando la velocidad de transmisión
-4 La conexión del programa fracasa porque el puerto COM12 está ya ocupado por Mission Planner.
-5 Desconectamos Mission Planner para dejar libre el puerto y conectamos (ahora si) nuestro programa.
-6 Abrimos un terminal de PowerShell y ponemos en marcha el proxy
-7 Ahora conectamos Mission Planner por UDP al puerto 14551 y nuestro programa al puerto 14550
-8 Finalmemnte ya tenemos a ambos conectados al dron
+1 Se pone en marcha Mission Planner    
+2 Se conecta al dron a través del puerto COM12 en el que está conectada la radio de telemetría    
+3 Intentamos conectar también el programa, ajustando la velocidad de transmisión    
+4 La conexión del programa fracasa porque el puerto COM12 está ya ocupado por Mission Planner 
+5 Desconectamos Mission Planner para dejar libre el puerto y conectamos (ahora si) nuestro programa  
+6 Abrimos un terminal de PowerShell y ponemos en marcha el proxy    
+7 Ahora conectamos Mission Planner por UDP al puerto 14551 y nuestro programa al puerto 14550    
+8 Finalmemnte ya tenemos a ambos conectados al dron    
  
 Obsérvese que en el momento de conectar Misión Planner al puerto UDP el autor del vídeo tiene alguna vacilación porque Mission Planner ya estaba conectado. Ha realizado algunas operaciones para desconectarlo y poder mostrar la operación de conexión, en la que hay que especificar el puerto al que debe conectarse. Obsérvese también que se han asignado los puertos UDP en el orden contrario al de la figura 4. Esa cuestión es indiferente.
 
