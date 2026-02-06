@@ -527,7 +527,8 @@ Ahora ya tenemos en marcha el proxy y podemos conectar Mission Planner a uno de 
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-wshxqRHUCY)](https://www.youtube.com/watch?v=-wshxqRHUCY)
 
-El vídeo muestra como:
+El vídeo muestra como:      
+
 •	Se pone en marcha Mission Planner
 •	Se conecta al dron a través del puerto COM12 en el que está conectada la radio de telemetría
 •	Intentamos conectar también el programa, ajustando la velocidad de transmisión
