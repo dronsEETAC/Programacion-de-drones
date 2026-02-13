@@ -491,7 +491,6 @@ Todos los programas que se han desarrollado en este tutorial trabajan con el sim
 ### 12.1 Conexión con el dron real 
 
 El portátil en el que se van a ejecutar nuestros programas debe conectarse con el dron a través de la radio de telemetría, que debe estar conectada a uno de los puertos USB del portátil. Consultando el Administrador de dispositivos de Windows podemos verificar rápidamente en cuál de los puertos COM está conectada la radio. Entonces, basta sustituir en el programa las siguientes líneas de código:   
-Para ello únicamente hay que cambiar las siguientes dos líneas de código:
 ```
 connection_string = "tcp:127.0.0.1:5763"
 vehicle = connect (connection_string, wait_ready = True, baud = 115200)
@@ -539,6 +538,6 @@ El vídeo muestra como:
 -  Ahora conectamos Mission Planner por UDP al puerto 14551 y nuestro programa al puerto 14550    
 -  Finalmemnte ya tenemos a ambos conectados al dron    
  
-Obsérvese que en el momento de conectar Misión Planner al puerto UDP el autor del vídeo tiene alguna vacilación porque Mission Planner ya estaba conectado. Ha realizado algunas operaciones para desconectarlo y poder mostrar la operación de conexión, en la que hay que especificar el puerto al que debe conectarse. Obsérvese también que se han asignado los puertos UDP en el orden contrario al de la figura 4. Esa cuestión es indiferente.
+Obsérvese que en el momento de conectar Misión Planner al puerto UDP el autor del vídeo tiene alguna vacilación porque Mission Planner ya estaba conectado. Ha realizado algunas operaciones para desconectarlo y poder mostrar la operación de conexión, en la que hay que especificar el puerto al que debe conectarse. Obsérvese también que se han asignado los puertos UDP en el orden contrario al de la figura. Esa cuestión es indiferente.
 
 
